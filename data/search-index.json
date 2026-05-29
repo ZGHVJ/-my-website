@@ -1,0 +1,128 @@
+[
+  {
+    "id": 1,
+    "category": "人员",
+    "title": "王颖 教授（课题组长）",
+    "body": "材料物理化学，纳米材料，能源存储，电催化，博士生导师，课题组长，PI，principal investigator",
+    "url": "people.html"
+  },
+  {
+    "id": 2,
+    "category": "人员",
+    "title": "李明 副教授",
+    "body": "薄膜材料，表面科学，XPS表征，副教授，研究员",
+    "url": "people.html"
+  },
+  {
+    "id": 3,
+    "category": "人员",
+    "title": "王芳 博士后",
+    "body": "电化学，锂离子电池，固态电解质，博士后",
+    "url": "people.html"
+  },
+  {
+    "id": 4,
+    "category": "科研成果",
+    "title": "高性能钙钛矿太阳能电池界面工程",
+    "body": "通过界面工程优化钙钛矿太阳能电池性能，效率突破25%，发表于Nature Energy，钙钛矿，界面工程，太阳能电池，光伏",
+    "url": "research.html"
+  },
+  {
+    "id": 5,
+    "category": "科研成果",
+    "title": "高熵合金电催化剂的设计与合成",
+    "body": "开发新型高熵合金纳米颗粒用于氧还原反应，燃料电池，电催化，高熵合金，ORR，OER",
+    "url": "research.html"
+  },
+  {
+    "id": 6,
+    "category": "科研成果",
+    "title": "二维材料异质结光电探测器",
+    "body": "MoS2/WSe2异质结构光电探测器，高响应率，低噪声，二维材料，TMD，光电子",
+    "url": "research.html"
+  },
+  {
+    "id": 7,
+    "category": "新闻",
+    "title": "课题组在Nature Communications发表重要研究成果",
+    "body": "2026年5月，我课题组在Nature Communications发表论文，揭示了高熵氧化物界面电荷转移机制，Nature Communications，论文发表",
+    "url": "news.html"
+  },
+  {
+    "id": 8,
+    "category": "新闻",
+    "title": "张教授获国家自然科学基金重点项目资助",
+    "body": "2026年4月，王颖教授获批国家自然科学基金重点项目，经费500万元，项目周期5年，国家自然科学基金，NSFC，重点项目",
+    "url": "news.html"
+  },
+  {
+    "id": 9,
+    "category": "新闻",
+    "title": "欢迎2026级新同学加入课题组",
+    "body": "课题组迎来4名新博士生和2名硕士生，2026级，新生，欢迎",
+    "url": "news.html"
+  },
+  {
+    "id": 10,
+    "category": "论文",
+    "title": "Interface Engineering of Perovskite Solar Cells",
+    "body": "Wang Y, Li M, Wang F et al. Nature Energy 2025. DOI: 10.1038/s41560-025-0001-x. 钙钛矿，太阳能电池，界面工程，Nature Energy",
+    "url": "publications.html"
+  },
+  {
+    "id": 11,
+    "category": "论文",
+    "title": "High-Entropy Alloy Electrocatalysts for Oxygen Reduction",
+    "body": "Wang F, Chen X, Wang Y et al. Journal of the American Chemical Society 2025. JACS，电催化，高熵合金，氧还原",
+    "url": "publications.html"
+  },
+  {
+    "id": 12,
+    "category": "论文",
+    "title": "MoS2/WSe2 Heterostructure Photodetectors",
+    "body": "Li M, Zhou Y, Wang Y et al. ACS Nano 2024. 二维材料，异质结，光电探测器，MoS2，WSe2，ACS Nano",
+    "url": "publications.html"
+  },
+  {
+    "id": 13,
+    "category": "论文",
+    "title": "Solid-State Electrolytes for Next-Generation Lithium Batteries",
+    "body": "Wang F, Liu J, Wang Y et al. Advanced Materials 2024. 固态电解质，锂离子电池，Advanced Materials，下一代电池",
+    "url": "publications.html"
+  },
+  {
+    "id": 14,
+    "category": "设备",
+    "title": "场发射透射电子显微镜 (FE-TEM)",
+    "body": "JEOL JEM-F200，200kV场发射透射电子显微镜，原子分辨率成像，EDS能谱，EELS，电子衍射，TEM，透射电镜",
+    "url": "equipment.html"
+  },
+  {
+    "id": 15,
+    "category": "设备",
+    "title": "X射线光电子能谱仪 (XPS)",
+    "body": "Thermo Scientific K-Alpha，表面元素分析，化学态分析，深度剖析，XPS，光电子能谱",
+    "url": "equipment.html"
+  },
+  {
+    "id": 16,
+    "category": "设备",
+    "title": "原子力显微镜 (AFM)",
+    "body": "Bruker MultiMode 8-HR，纳米尺度形貌，力学性质，导电AFM，KPFM，原子力显微镜，扫描探针",
+    "url": "equipment.html"
+  },
+  {
+    "id": 17,
+    "category": "设备",
+    "title": "磁控溅射镀膜系统",
+    "body": "Angstrom Engineering EvoVac，多靶材磁控溅射，薄膜制备，PVD，物理气相沉积，镀膜",
+    "url": "equipment.html"
+  },
+  {
+    "id": 18,
+    "category": "设备",
+    "title": "激光拉曼光谱仪",
+    "body": "Renishaw inVia，514nm/633nm/785nm激光，显微拉曼，材料表征，拉曼，振动光谱",
+    "url": "equipment.html"
+  }
+]
