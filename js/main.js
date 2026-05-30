@@ -1,3 +1,31 @@
+// ==================== LIGHTBOX ====================
+(function () {
+  const overlay = document.createElement('div');
+  overlay.id = 'lightbox-overlay';
+  overlay.innerHTML = '<span id="lightbox-close">✕</span><img id="lightbox-img" src="" alt="">';
+  document.body.appendChild(overlay);
+
+  const img = overlay.querySelector('#lightbox-img');
+
+  function open(src, alt) {
+    img.src = src;
+    img.alt = alt || '';
+    overlay.classList.add('active');
+    document.body.style.overflow = 'hidden';
+  }
+  function close() {
+    overlay.classList.remove('active');
+    img.src = '';
+    document.body.style.overflow = '';
+  }
+
+  document.querySelectorAll('.lightbox-trigger').forEach(el => {
+    el.addEventListener('click', () => open(el.dataset.src || el.src || el.querySelector('img')?.src, el.dataset.alt || el.alt || ''));
+  });
+  overlay.addEventListener('click', e => { if (e.target === overlay || e.target.id === 'lightbox-close') close(); });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') close(); });
+})();
+
 // ==================== NAVBAR BURGER ====================
 const burger = document.getElementById('burger');
 const navMenu = document.getElementById('navMenu');
