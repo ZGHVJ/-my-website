@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>实验室相册 | Wang Research Group</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .gallery-filters {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-bottom: 32px;
+    }
+    .gf-btn {
+      padding: 8px 22px;
+      border: 2px solid var(--primary);
+      background: transparent;
+      color: var(--primary);
+      border-radius: 20px;
+      cursor: pointer;
+      font-size: 0.88rem;
+      font-weight: 600;
+      transition: all var(--transition);
+    }
+    .gf-btn:hover, .gf-btn.active {
+      background: var(--primary);
+      color: #fff;
+    }
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+    }
+    @media (max-width: 900px) { .gallery-grid { grid-template-columns: repeat(2, 1fr); } }
+    @media (max-width: 500px)  { .gallery-grid { grid-template-columns: 1fr; } }
+
+    .gallery-item {
+      position: relative;
+      border-radius: var(--radius);
+      overflow: hidden;
+      aspect-ratio: 4/3;
+      box-shadow: var(--shadow);
+      transition: transform var(--transition), box-shadow var(--transition);
+      cursor: zoom-in;
+    }
+    .gallery-item:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-hover);
+    }
+    .gallery-item img {
+      width: 100%; height: 100%;
+      object-fit: cover;
+      transition: transform 0.4s ease;
+      display: block;
+    }
+    .gallery-item:hover img { transform: scale(1.06); }
+    .gallery-caption {
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      background: linear-gradient(transparent, rgba(0,0,0,0.75));
+      color: #fff;
+      padding: 28px 14px 12px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      transform: translateY(100%);
+      transition: transform 0.3s ease;
+    }
+    .gallery-item:hover .gallery-caption { transform: translateY(0); }
+
+    .gallery-placeholder {
+      aspect-ratio: 4/3;
+      border-radius: var(--radius);
+      background: #f0f3f6;
+      border: 2px dashed #cdd2d8;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      color: var(--text-muted);
+      font-size: 0.82rem;
+    }
+    .gallery-placeholder-icon { font-size: 2rem; opacity: 0.6; }
+
+    .upload-tip {
+      background: #fffbea;
+      border: 1px solid #ffe082;
+      border-left: 4px solid #f0a500;
+      border-radius: var(--radius);
+      padding: 14px 20px;
+      font-size: 0.85rem;
+      color: #6d4c00;
+      margin-bottom: 32px;
+      line-height: 1.7;
+    }
+    .upload-tip code {
+      background: rgba(0,0,0,0.07);
+      padding: 1px 7px;
+      border-radius: 4px;
+      font-family: monospace;
+      font-size: 0.83rem;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="container navbar-inner">
+    <a class="navbar-brand" href="index.html"><span>Wang</span> Research Group</a>
+    <div class="navbar-menu" id="navMenu">
+      <a href="index.html"        data-zh="首页"     data-en="Home">首页</a>
+      <a href="research.html"     data-zh="科研方向"  data-en="Research">科研方向</a>
+      <a href="people.html"       data-zh="课题组成员" data-en="Team">课题组成员</a>
+      <a href="publications.html" data-zh="发表论文"  data-en="Publications">发表论文</a>
+      <a href="news.html"         data-zh="新闻动态"  data-en="News">新闻动态</a>
+      <a href="gallery.html"      data-zh="相册"     data-en="Gallery">相册</a>
+      <a href="equipment.html"    data-zh="实验设备"  data-en="Equipment">实验设备</a>
+      <a href="contact.html"      data-zh="联系我们"  data-en="Contact">联系我们</a>
+      <button class="navbar-search-btn" id="navSearchBtn" data-zh="🔍 搜索" data-en="🔍 Search">🔍 搜索</button>
+    </div>
+    <button class="lang-toggle" id="langToggle">EN</button>
+    <div class="burger" id="burger"><span></span><span></span><span></span></div>
+  </div>
+</nav>
+
+<div class="page-hero" style="background: linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)), url('images/graduation-2026.jpg') center/cover no-repeat;">
+  <div class="container">
+    <div class="breadcrumb">
+      <a href="index.html">首页</a><span class="sep">/</span><span>实验室相册</span>
+    </div>
+    <h1>实验室相册</h1>
+    <p>记录课题组的学术旅程、毕业典礼与美好瞬间</p>
+  </div>
+</div>
+
+<section class="section">
+  <div class="container">
+
+    <div class="upload-tip">
+      💡 <strong>添加照片：</strong>将图片文件放入 <code>images/</code> 文件夹，复制一个 <code>&lt;div class="gallery-item lightbox-trigger" …&gt;</code> 块，修改 <code>data-src</code>、<code>src</code> 与说明文字即可。下方"待上传"格子为占位符，上传后替换或删除。
+    </div>
+
+    <!-- 分类筛选 -->
+    <div class="gallery-filters">
+      <button class="gf-btn active" data-cat="all">全部</button>
+      <button class="gf-btn" data-cat="graduation">🎓 毕业典礼</button>
+      <button class="gf-btn" data-cat="conference">🎤 学术交流</button>
+      <button class="gf-btn" data-cat="lab">🔬 实验室日常</button>
+      <button class="gf-btn" data-cat="activity">🏃 课题组活动</button>
+    </div>
+
+    <!-- 照片网格 -->
+    <div class="gallery-grid" id="galleryGrid">
+
+      <!-- ===== 毕业典礼 ===== -->
+      <div class="gallery-item lightbox-trigger" data-cat="graduation"
+           data-src="images/graduation-2026.jpg" data-alt="2026届毕业合影">
+        <img src="images/graduation-2026.jpg" alt="2026届毕业合影" loading="lazy">
+        <div class="gallery-caption">🎓 2026届毕业合影</div>
+      </div>
+
+      <div class="gallery-placeholder" data-cat="graduation">
+        <div class="gallery-placeholder-icon">🎓</div>
+        <div>毕业合影（待上传）</div>
+      </div>
+
+      <!-- ===== 学术交流 ===== -->
+      <div class="gallery-placeholder" data-cat="conference">
+        <div class="gallery-placeholder-icon">🎤</div>
+        <div>学术会议（待上传）</div>
+      </div>
+
+      <div class="gallery-placeholder" data-cat="conference">
+        <div class="gallery-placeholder-icon">🎤</div>
+        <div>学术交流（待上传）</div>
+      </div>
+
+      <!-- ===== 实验室日常 ===== -->
+      <div class="gallery-placeholder" data-cat="lab">
+        <div class="gallery-placeholder-icon">🔬</div>
+        <div>实验日常（待上传）</div>
+      </div>
+
+      <div class="gallery-placeholder" data-cat="lab">
+        <div class="gallery-placeholder-icon">🔬</div>
+        <div>实验日常（待上传）</div>
+      </div>
+
+      <div class="gallery-placeholder" data-cat="lab">
+        <div class="gallery-placeholder-icon">🔬</div>
+        <div>实验日常（待上传）</div>
+      </div>
+
+      <!-- ===== 课题组活动 ===== -->
+      <div class="gallery-placeholder" data-cat="activity">
+        <div class="gallery-placeholder-icon">🏃</div>
+        <div>课题组活动（待上传）</div>
+      </div>
+
+      <div class="gallery-placeholder" data-cat="activity">
+        <div class="gallery-placeholder-icon">🏃</div>
+        <div>课题组活动（待上传）</div>
+      </div>
+
+    </div><!-- /gallery-grid -->
+
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div><h4>Wang Research Group</h4><p>焊接与先进制造技术研究所<br>天津大学材料科学与工程学院</p></div>
+      <div><h4>快速导航</h4><div class="footer-links">
+        <a href="research.html">科研方向</a>
+        <a href="people.html">课题组成员</a>
+        <a href="publications.html">发表论文</a>
+        <a href="news.html">新闻动态</a>
+        <a href="gallery.html">实验室相册</a>
+        <a href="alumni-map.html">校友去向地图</a>
+        <a href="equipment.html">实验设备</a>
+        <a href="contact.html">联系我们</a>
+      </div></div>
+      <div><h4>联系方式</h4><p style="font-size:0.84rem;line-height:2;">📧 wangycl@tju.edu.cn<br>📞 022-85356661<br>📍 天津大学31号教学楼</p></div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Wang Research Group. All rights reserved.</span>
+      <span>焊接与先进制造技术研究所 · 天津大学</span>
+    </div>
+  </div>
+</footer>
+
+<button class="back-to-top" id="backToTop">↑</button>
+<script src="js/main.js"></script>
+<script>
+  const gfBtns = document.querySelectorAll('.gf-btn');
+  const galleryItems = document.querySelectorAll('#galleryGrid > *');
+
+  gfBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      gfBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const cat = btn.dataset.cat;
+      galleryItems.forEach(item => {
+        item.style.display = (cat === 'all' || item.dataset.cat === cat) ? '' : 'none';
+      });
+    });
+  });
+</script>
+</body>
+</html>

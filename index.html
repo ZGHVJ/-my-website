@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
@@ -16,15 +16,17 @@
       <span>Wang</span> Research Group
     </a>
     <div class="navbar-menu" id="navMenu">
-      <a href="index.html">首页</a>
-      <a href="research.html">科研方向</a>
-      <a href="people.html">课题组成员</a>
-      <a href="publications.html">发表论文</a>
-      <a href="news.html">新闻动态</a>
-      <a href="equipment.html">实验设备</a>
-      <a href="contact.html">联系我们</a>
-      <button class="navbar-search-btn" id="navSearchBtn">🔍 搜索</button>
+      <a href="index.html" data-zh="首页" data-en="Home">首页</a>
+      <a href="research.html" data-zh="科研方向" data-en="Research">科研方向</a>
+      <a href="people.html" data-zh="课题组成员" data-en="Team">课题组成员</a>
+      <a href="publications.html" data-zh="发表论文" data-en="Publications">发表论文</a>
+      <a href="news.html" data-zh="新闻动态" data-en="News">新闻动态</a>
+      <a href="gallery.html" data-zh="相册" data-en="Gallery">相册</a>
+      <a href="equipment.html" data-zh="实验设备" data-en="Equipment">实验设备</a>
+      <a href="contact.html" data-zh="联系我们" data-en="Contact">联系我们</a>
+      <button class="navbar-search-btn" id="navSearchBtn" data-zh="🔍 搜索" data-en="🔍 Search">🔍 搜索</button>
     </div>
+    <button class="lang-toggle" id="langToggle">EN</button>
     <div class="burger" id="burger">
       <span></span><span></span><span></span>
     </div>
@@ -35,29 +37,29 @@
 <section class="hero">
   <div class="container">
     <div class="hero-content">
-      <div class="hero-tag">焊接与先进制造技术研究所</div>
-      <h1>探索连接的<span>微观机制</span><br>驱动先进制造的未来</h1>
-      <p>我们致力于新材料及异种材料连接、焊接结构评价与延寿、电弧增材制造等前沿领域，结合原位电镜表征与微纳力学，推动焊接科学向工程应用的转化。</p>
+      <div class="hero-tag" data-zh="焊接与先进制造技术研究所" data-en="Institute of Welding &amp; Advanced Manufacturing">焊接与先进制造技术研究所</div>
+      <h1><span class="zh-only">探索连接的<span>微观机制</span><br>驱动先进制造的未来</span><span class="en-only">Exploring the <span>Microscale Mechanisms</span><br>of Joining &amp; Advanced Manufacturing</span></h1>
+      <p><span class="zh-only">我们致力于新材料及异种材料连接、焊接结构评价与延寿、电弧增材制造等前沿领域，结合原位电镜表征与微纳力学，推动焊接科学向工程应用的转化。</span><span class="en-only">We focus on novel material joining, structural integrity of welded components, wire arc additive manufacturing, in-situ TEM characterization, and nanomechanics — bridging fundamental science and engineering applications.</span></p>
       <div class="hero-btns">
-        <a href="research.html" class="btn btn-primary">了解我们的研究</a>
-        <a href="people.html" class="btn btn-outline">认识我们的团队</a>
+        <a href="research.html" class="btn btn-primary" data-zh="了解我们的研究" data-en="Our Research">了解我们的研究</a>
+        <a href="people.html" class="btn btn-outline" data-zh="认识我们的团队" data-en="Meet Our Team">认识我们的团队</a>
       </div>
       <div class="hero-stats">
         <div class="stat-item">
-          <div class="stat-num" data-target="34" data-suffix="+">0+</div>
-          <div class="stat-label">发表论文</div>
+          <div class="stat-num" data-target="200" data-suffix="+">0+</div>
+          <div class="stat-label" data-zh="发表论文" data-en="Publications">发表论文</div>
         </div>
         <div class="stat-item">
-          <div class="stat-num" data-target="1500" data-suffix="+">0+</div>
-          <div class="stat-label">总被引次数</div>
+          <div class="stat-num" data-target="4000" data-suffix="+">0+</div>
+          <div class="stat-label" data-zh="总被引次数" data-en="Total Citations">总被引次数</div>
         </div>
         <div class="stat-item">
           <div class="stat-num" data-target="15">0</div>
-          <div class="stat-label">课题组成员</div>
+          <div class="stat-label" data-zh="课题组成员" data-en="Members">课题组成员</div>
         </div>
         <div class="stat-item">
           <div class="stat-num" data-target="5">0</div>
-          <div class="stat-label">在研项目</div>
+          <div class="stat-label" data-zh="在研项目" data-en="Active Projects">在研项目</div>
         </div>
       </div>
     </div>
@@ -67,42 +69,42 @@
 <!-- ==================== RESEARCH HIGHLIGHTS ==================== -->
 <section class="section" style="background:#fff;">
   <div class="container">
-    <h2 class="section-title">主要研究方向</h2>
-    <p class="section-subtitle">围绕先进制造国家战略需求，开展基础与应用研究</p>
+    <h2 class="section-title" data-zh="主要研究方向" data-en="Research Areas">主要研究方向</h2>
+    <p class="section-subtitle" data-zh="围绕先进制造国家战略需求，开展基础与应用研究" data-en="Fundamental and applied research aligned with national advanced manufacturing strategies">围绕先进制造国家战略需求，开展基础与应用研究</p>
     <div class="grid-3">
       <div class="card research-card">
         <div class="research-icon">🔗</div>
-        <h3>新材料及异种材料连接</h3>
-        <p>针对高熵合金、钛合金、铝合金等新材料及异种材料体系，研究焊接冶金行为与接头性能调控机制。</p>
+        <h3><span class="zh-only">新材料及异种材料连接</span><span class="en-only">Novel Material Joining</span></h3>
+        <p><span class="zh-only">针对高熵合金、钛合金、铝合金等新材料及异种材料体系，研究焊接冶金行为与接头性能调控机制。</span><span class="en-only">Investigating welding metallurgy and joint performance of high-entropy alloys, titanium, aluminum alloys, and dissimilar material systems.</span></p>
       </div>
       <div class="card research-card">
         <div class="research-icon">🏗️</div>
-        <h3>焊接结构评价与延寿</h3>
-        <p>开展焊接结构的疲劳、断裂及腐蚀行为研究，建立寿命预测模型，为工程结构延寿提供理论依据。</p>
+        <h3><span class="zh-only">焊接结构评价与延寿</span><span class="en-only">Structural Integrity &amp; Life Extension</span></h3>
+        <p><span class="zh-only">开展焊接结构的疲劳、断裂及腐蚀行为研究，建立寿命预测模型，为工程结构延寿提供理论依据。</span><span class="en-only">Studying fatigue, fracture, and corrosion of welded structures, and developing life prediction models for engineering applications.</span></p>
       </div>
       <div class="card research-card">
         <div class="research-icon">⚙️</div>
-        <h3>电弧增材制造</h3>
-        <p>基于电弧熔丝增材制造（WAAM）技术，研究大型金属构件的成形工艺、组织调控与力学性能优化。</p>
+        <h3><span class="zh-only">电弧增材制造</span><span class="en-only">Wire Arc Additive Manufacturing</span></h3>
+        <p><span class="zh-only">基于电弧熔丝增材制造（WAAM）技术，研究大型金属构件的成形工艺、组织调控与力学性能优化。</span><span class="en-only">Employing WAAM to investigate forming processes, microstructure control, and mechanical property optimization of large metal components.</span></p>
       </div>
       <div class="card research-card">
         <div class="research-icon">🔬</div>
-        <h3>原位电镜表征</h3>
-        <p>发展原位透射电子显微镜技术，实时观测连接界面的形成演变过程，揭示微观变形与断裂机制。</p>
+        <h3><span class="zh-only">原位电镜表征</span><span class="en-only">In-Situ TEM Characterization</span></h3>
+        <p><span class="zh-only">发展原位透射电子显微镜技术，实时观测连接界面的形成演变过程，揭示微观变形与断裂机制。</span><span class="en-only">Developing in-situ TEM techniques to observe real-time evolution of joining interfaces and reveal microscale deformation and fracture mechanisms.</span></p>
       </div>
       <div class="card research-card">
         <div class="research-icon">📐</div>
-        <h3>微纳力学</h3>
-        <p>利用微纳米力学测试手段，定量表征焊接接头局部区域的力学性质，为本构模型建立提供数据支撑。</p>
+        <h3><span class="zh-only">微纳力学</span><span class="en-only">Micro/Nanomechanics</span></h3>
+        <p><span class="zh-only">利用微纳米力学测试手段，定量表征焊接接头局部区域的力学性质，为本构模型建立提供数据支撑。</span><span class="en-only">Quantitatively characterizing local mechanical properties of welded joints via micro/nano-mechanical testing to support constitutive model development.</span></p>
       </div>
       <div class="card research-card">
         <div class="research-icon">💻</div>
-        <h3>半导体集成封装</h3>
-        <p>研究先进芯片封装中的互连材料与工艺，解决高密度封装面临的热-力耦合可靠性问题。</p>
+        <h3><span class="zh-only">半导体集成封装</span><span class="en-only">Semiconductor Packaging</span></h3>
+        <p><span class="zh-only">研究先进芯片封装中的互连材料与工艺，解决高密度封装面临的热-力耦合可靠性问题。</span><span class="en-only">Investigating interconnect materials and processes in advanced chip packaging to address thermo-mechanical reliability challenges.</span></p>
       </div>
     </div>
     <div style="text-align:center;margin-top:32px;">
-      <a href="research.html" class="btn btn-primary">查看全部研究方向</a>
+      <a href="research.html" class="btn btn-primary" data-zh="查看全部研究方向" data-en="All Research Areas">查看全部研究方向</a>
     </div>
   </div>
 </section>
@@ -110,8 +112,8 @@
 <!-- ==================== LATEST NEWS ==================== -->
 <section class="section">
   <div class="container">
-    <h2 class="section-title">最新动态</h2>
-    <p class="section-subtitle">课题组近期研究进展与重要事件</p>
+    <h2 class="section-title" data-zh="最新动态" data-en="Latest News">最新动态</h2>
+    <p class="section-subtitle" data-zh="课题组近期研究进展与重要事件" data-en="Recent progress and events from the group">课题组近期研究进展与重要事件</p>
     <div class="news-grid">
       <div class="card news-card">
         <img src="images/graduation-2026.jpg" alt="2026届毕业合影" class="lightbox-trigger" data-src="images/graduation-2026.jpg" data-alt="2026届毕业合影" style="width:100%;height:180px;object-fit:cover;object-position:center top;border-radius:8px 8px 0 0;">
@@ -119,7 +121,7 @@
           <div class="news-date">2026年5月 <span class="news-tag event">人员</span></div>
           <div class="news-title">热烈祝贺杨旭、木瑞洁博士毕业，兰中霖、王涛、温奇、雍臻、于泽、张冬雪硕士毕业！</div>
           <div class="news-excerpt">岁月不居，时节如流。杨旭、木瑞洁顺利完成博士学业，兰中霖、王涛、温奇、雍臻、于泽、张冬雪圆满完成硕士阶段学习，恭喜毕业，前途似锦！</div>
-          <a class="news-read-more" href="news.html">阅读更多 →</a>
+          <a class="news-read-more" href="news.html" data-zh="阅读更多 →" data-en="Read more →">阅读更多 →</a>
         </div>
       </div>
       <div class="card news-card">
@@ -128,7 +130,7 @@
           <div class="news-date">2025年4月 <span class="news-tag event">人员</span></div>
           <div class="news-title">欢迎韩英教授加入天津大学，担任英才教授</div>
           <div class="news-excerpt">韩英教授结束在美国加州大学尔湾分校的博士后研究，正式加入天津大学材料科学与工程学院，担任英才教授，专注于原位电镜表征与微纳力学研究。</div>
-          <a class="news-read-more" href="news.html">阅读更多 →</a>
+          <a class="news-read-more" href="news.html" data-zh="阅读更多 →" data-en="Read more →">阅读更多 →</a>
         </div>
       </div>
       <div class="card news-card">
@@ -137,12 +139,12 @@
           <div class="news-date">2025年 <span class="news-tag award">项目</span></div>
           <div class="news-title">王颖教授获国家自然科学基金联合重点项目资助</div>
           <div class="news-excerpt">王颖教授主持的国家自然科学基金联合重点项目正式获批，项目执行期2025—2028年，聚焦新材料及异种材料连接科学问题研究。</div>
-          <a class="news-read-more" href="news.html">阅读更多 →</a>
+          <a class="news-read-more" href="news.html" data-zh="阅读更多 →" data-en="Read more →">阅读更多 →</a>
         </div>
       </div>
     </div>
     <div style="text-align:center;margin-top:32px;">
-      <a href="news.html" class="btn btn-primary">查看所有新闻</a>
+      <a href="news.html" class="btn btn-primary" data-zh="查看所有新闻" data-en="All News">查看所有新闻</a>
     </div>
   </div>
 </section>
@@ -150,8 +152,8 @@
 <!-- ==================== FEATURED PUBLICATIONS ==================== -->
 <section class="section" style="background:#fff;">
   <div class="container">
-    <h2 class="section-title">代表性论文</h2>
-    <p class="section-subtitle">近年发表于高影响力期刊的重要成果</p>
+    <h2 class="section-title" data-zh="代表性论文" data-en="Featured Publications">代表性论文</h2>
+    <p class="section-subtitle" data-zh="近年发表于高影响力期刊的重要成果" data-en="Recent publications in high-impact journals">近年发表于高影响力期刊的重要成果</p>
     <div class="pub-list">
       <div class="pub-item">
         <div class="pub-title">In Situ TEM Observation of Interfacial Reactions During Dissimilar Metal Joining</div>
@@ -182,7 +184,7 @@
       </div>
     </div>
     <div style="text-align:center;margin-top:32px;">
-      <a href="publications.html" class="btn btn-primary">查看全部论文</a>
+      <a href="publications.html" class="btn btn-primary" data-zh="查看全部论文" data-en="All Publications">查看全部论文</a>
     </div>
   </div>
 </section>
@@ -190,42 +192,42 @@
 <!-- ==================== TEAM PREVIEW ==================== -->
 <section class="section">
   <div class="container">
-    <h2 class="section-title">课题组团队</h2>
-    <p class="section-subtitle">来自不同背景的优秀研究人员共同推进科学前沿</p>
+    <h2 class="section-title" data-zh="课题组团队" data-en="Our Team">课题组团队</h2>
+    <p class="section-subtitle" data-zh="来自不同背景的优秀研究人员共同推进科学前沿" data-en="Excellent researchers from diverse backgrounds advancing scientific frontiers">来自不同背景的优秀研究人员共同推进科学前沿</p>
     <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:20px;">
       <div class="card person-card">
         <div class="person-avatar"><img src="images/wang-ying.png" alt="王颖"></div>
         <div class="person-name">王颖</div>
-        <div class="person-role">教授 / 课题组长</div>
+        <div class="person-role" data-zh="教授 / 课题组长" data-en="Professor / PI">教授 / 课题组长</div>
         <div class="person-info">新材料连接<br>博士生导师</div>
       </div>
       <div class="card person-card">
         <div class="person-avatar"><img src="images/han-ying.jpg" alt="韩英"></div>
         <div class="person-name">韩英</div>
-        <div class="person-role">英才教授</div>
+        <div class="person-role" data-zh="英才教授" data-en="Distinguished Professor">英才教授</div>
         <div class="person-info">原位电镜 · 微纳力学</div>
       </div>
       <div class="card person-card">
         <div class="person-avatar"><img src="images/niu-shiyu.jpg" alt="牛士玉"></div>
         <div class="person-name">牛士玉</div>
-        <div class="person-role">副研究员</div>
+        <div class="person-role" data-zh="副研究员" data-en="Associate Researcher">副研究员</div>
         <div class="person-info">新材料连接与界面表征</div>
       </div>
       <div class="card person-card">
         <div class="person-avatar">博</div>
         <div class="person-name">博士生</div>
-        <div class="person-role">博士研究生</div>
+        <div class="person-role" data-zh="博士研究生" data-en="Ph.D. Candidate">博士研究生</div>
         <div class="person-info">电弧增材制造</div>
       </div>
       <div class="card person-card">
         <div class="person-avatar">硕</div>
         <div class="person-name">硕士生</div>
-        <div class="person-role">硕士研究生</div>
+        <div class="person-role" data-zh="硕士研究生" data-en="M.S. Student">硕士研究生</div>
         <div class="person-info">微纳力学表征</div>
       </div>
     </div>
     <div style="text-align:center;margin-top:32px;">
-      <a href="people.html" class="btn btn-primary">认识全部成员</a>
+      <a href="people.html" class="btn btn-primary" data-zh="认识全部成员" data-en="All Members">认识全部成员</a>
     </div>
   </div>
 </section>
@@ -239,7 +241,7 @@
         <p>焊接与先进制造技术研究所<br>天津大学材料科学与工程学院<br>聚焦新材料连接、增材制造与原位表征的基础与应用研究</p>
       </div>
       <div>
-        <h4>快速导航</h4>
+        <h4 data-zh="快速导航" data-en="Quick Links">快速导航</h4>
         <div class="footer-links">
           <a href="research.html">科研方向</a>
           <a href="people.html">课题组成员</a>
@@ -250,7 +252,7 @@
         </div>
       </div>
       <div>
-        <h4>联系方式</h4>
+        <h4 data-zh="联系方式" data-en="Contact">联系方式</h4>
         <p style="font-size:0.84rem;line-height:2;">
           📧 wangycl@tju.edu.cn<br>
           📞 022-85356661<br>
@@ -261,7 +263,7 @@
     </div>
     <div class="footer-bottom">
       <span>© 2026 Wang Research Group. All rights reserved.</span>
-      <span>焊接与先进制造技术研究所 · 天津大学</span>
+      <span data-zh="焊接与先进制造技术研究所 · 天津大学" data-en="Institute of Welding &amp; Advanced Manufacturing · Tianjin University">焊接与先进制造技术研究所 · 天津大学</span>
     </div>
   </div>
 </footer>

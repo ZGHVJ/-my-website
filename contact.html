@@ -12,15 +12,17 @@
   <div class="container navbar-inner">
     <a class="navbar-brand" href="index.html"><span>Wang</span> Research Group</a>
     <div class="navbar-menu" id="navMenu">
-      <a href="index.html">首页</a>
-      <a href="research.html">科研方向</a>
-      <a href="people.html">课题组成员</a>
-      <a href="publications.html">发表论文</a>
-      <a href="news.html">新闻动态</a>
-      <a href="equipment.html">实验设备</a>
-      <a href="contact.html">联系我们</a>
-      <button class="navbar-search-btn" id="navSearchBtn">🔍 搜索</button>
+      <a href="index.html" data-zh="首页" data-en="Home">首页</a>
+      <a href="research.html" data-zh="科研方向" data-en="Research">科研方向</a>
+      <a href="people.html" data-zh="课题组成员" data-en="Team">课题组成员</a>
+      <a href="publications.html" data-zh="发表论文" data-en="Publications">发表论文</a>
+      <a href="news.html" data-zh="新闻动态" data-en="News">新闻动态</a>
+      <a href="gallery.html" data-zh="相册" data-en="Gallery">相册</a>
+      <a href="equipment.html" data-zh="实验设备" data-en="Equipment">实验设备</a>
+      <a href="contact.html" data-zh="联系我们" data-en="Contact">联系我们</a>
+      <button class="navbar-search-btn" id="navSearchBtn" data-zh="🔍 搜索" data-en="🔍 Search">🔍 搜索</button>
     </div>
+    <button class="lang-toggle" id="langToggle">EN</button>
     <div class="burger" id="burger"><span></span><span></span><span></span></div>
   </div>
 </nav>
@@ -110,20 +112,20 @@
           <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;">
             <div>
               <label style="font-size:0.82rem;font-weight:600;color:#555;display:block;margin-bottom:6px;">姓名 *</label>
-              <input type="text" required placeholder="您的姓名"
+              <input type="text" name="name" required placeholder="您的姓名"
                 style="width:100%;padding:10px 14px;border:1px solid #dee2e6;border-radius:6px;font-size:0.9rem;outline:none;transition:border-color 0.2s;"
                 onfocus="this.style.borderColor='#2980b9'" onblur="this.style.borderColor='#dee2e6'">
             </div>
             <div>
               <label style="font-size:0.82rem;font-weight:600;color:#555;display:block;margin-bottom:6px;">电子邮件 *</label>
-              <input type="email" required placeholder="your@email.com"
+              <input type="email" name="email" required placeholder="your@email.com"
                 style="width:100%;padding:10px 14px;border:1px solid #dee2e6;border-radius:6px;font-size:0.9rem;outline:none;transition:border-color 0.2s;"
                 onfocus="this.style.borderColor='#2980b9'" onblur="this.style.borderColor='#dee2e6'">
             </div>
           </div>
           <div>
             <label style="font-size:0.82rem;font-weight:600;color:#555;display:block;margin-bottom:6px;">留言主题</label>
-            <select style="width:100%;padding:10px 14px;border:1px solid #dee2e6;border-radius:6px;font-size:0.9rem;outline:none;background:#fff;color:#555;">
+            <select name="subject" style="width:100%;padding:10px 14px;border:1px solid #dee2e6;border-radius:6px;font-size:0.9rem;outline:none;background:#fff;color:#555;">
               <option value="">请选择留言类型…</option>
               <option>申请攻读博士研究生</option>
               <option>申请硕士研究生</option>
@@ -135,7 +137,7 @@
           </div>
           <div>
             <label style="font-size:0.82rem;font-weight:600;color:#555;display:block;margin-bottom:6px;">留言内容 *</label>
-            <textarea required rows="5" placeholder="请详细描述您的咨询内容…"
+            <textarea name="message" required rows="5" placeholder="请详细描述您的咨询内容…"
               style="width:100%;padding:10px 14px;border:1px solid #dee2e6;border-radius:6px;font-size:0.9rem;outline:none;resize:vertical;transition:border-color 0.2s;font-family:inherit;"
               onfocus="this.style.borderColor='#2980b9'" onblur="this.style.borderColor='#dee2e6'"></textarea>
           </div>
@@ -146,37 +148,35 @@
       </div>
     </div>
 
-    <!-- 加入我们 -->
+    <!-- 科研合作 -->
     <div style="margin-top:56px;">
-      <h2 class="section-title">加入我们</h2>
-      <p class="section-subtitle">欢迎有志于科学探索的优秀人才加入课题组</p>
+      <h2 class="section-title">科研合作</h2>
+      <p class="section-subtitle">欢迎国内外高校、科研院所及企业开展合作交流</p>
       <div class="grid-3">
-        <div class="card" style="padding:24px;">
-          <div style="font-size:2rem;margin-bottom:12px;">🎓</div>
-          <h3 style="font-size:1rem;font-weight:700;color:#1a3a5c;margin-bottom:10px;">博士/硕士研究生</h3>
-          <p style="font-size:0.85rem;color:#555;line-height:1.7;margin-bottom:12px;">
-            欢迎材料、机械、力学等相关专业的同学申请。请将个人简历、成绩单及研究兴趣陈述发送至导师邮箱。
-          </p>
-          <a href="mailto:wangycl@tju.edu.cn" style="font-size:0.85rem;font-weight:600;color:#2980b9;">申请咨询（王颖） →</a><br>
-          <a href="mailto:yinghan@tju.edu.cn" style="font-size:0.85rem;font-weight:600;color:#2980b9;">申请咨询（韩英） →</a>
+        <div class="card" style="padding:28px;">
+          <div style="font-size:2rem;margin-bottom:12px;">🏫</div>
+          <h3 style="font-size:1rem;font-weight:700;color:#1a3a5c;margin-bottom:10px;">学术合作</h3>
+          <p style="font-size:0.85rem;color:#555;line-height:1.7;">与国内外高校及科研机构开展联合研究、互派访学、共同申请项目等多种形式的学术合作。</p>
         </div>
-        <div class="card" style="padding:24px;">
-          <div style="font-size:2rem;margin-bottom:12px;">🔬</div>
-          <h3 style="font-size:1rem;font-weight:700;color:#1a3a5c;margin-bottom:10px;">博士后研究员</h3>
-          <p style="font-size:0.85rem;color:#555;line-height:1.7;margin-bottom:12px;">
-            诚招焊接、材料加工、力学、电子显微镜等方向的博士后，提供独立科研平台，鼓励申请国家博士后创新人才支持计划。
-          </p>
-          <a href="mailto:wangycl@tju.edu.cn" style="font-size:0.85rem;font-weight:600;color:#2980b9;">了解详情 →</a>
+        <div class="card" style="padding:28px;">
+          <div style="font-size:2rem;margin-bottom:12px;">🏭</div>
+          <h3 style="font-size:1rem;font-weight:700;color:#1a3a5c;margin-bottom:10px;">企业合作</h3>
+          <p style="font-size:0.85rem;color:#555;line-height:1.7;">面向航空航天、新能源、半导体封装等行业，提供新材料连接、焊接结构评价、增材制造等方向的技术合作与咨询服务。</p>
         </div>
-        <div class="card" style="padding:24px;">
-          <div style="font-size:2rem;margin-bottom:12px;">🤝</div>
-          <h3 style="font-size:1rem;font-weight:700;color:#1a3a5c;margin-bottom:10px;">科研合作</h3>
-          <p style="font-size:0.85rem;color:#555;line-height:1.7;margin-bottom:12px;">
-            欢迎国内外高校、研究所及企业就新材料连接、增材制造、原位表征等共同感兴趣的研究方向开展合作。
-          </p>
-          <a href="mailto:wangycl@tju.edu.cn" style="font-size:0.85rem;font-weight:600;color:#2980b9;">联系合作 →</a>
+        <div class="card" style="padding:28px;">
+          <div style="font-size:2rem;margin-bottom:12px;">🔧</div>
+          <h3 style="font-size:1rem;font-weight:700;color:#1a3a5c;margin-bottom:10px;">仪器共享</h3>
+          <p style="font-size:0.85rem;color:#555;line-height:1.7;">实验室配备多台先进表征与测试设备，欢迎有需求的单位联系预约使用，详情请发邮件咨询。</p>
         </div>
       </div>
+      <div style="margin-top:28px;text-align:center;">
+        <a href="mailto:wangycl@tju.edu.cn" style="font-size:0.9rem;font-weight:600;color:#2980b9;">联系洽谈合作 → wangycl@tju.edu.cn</a>
+      </div>
+    </div>
+
+    <!-- 加入我们入口 -->
+    <div style="margin-top:40px;text-align:center;">
+      <a href="join.html" style="font-size:0.95rem;font-weight:600;color:#2980b9;">有意加入课题组？查看招募信息 →</a>
     </div>
 
   </div>
@@ -195,13 +195,55 @@
 <button class="back-to-top" id="backToTop">↑</button>
 <script src="js/main.js"></script>
 <script>
-document.getElementById('contactForm').addEventListener('submit', function(e) {
+/* ===== Formspree 联系表单 =====
+   使用步骤：
+   1. 访问 https://formspree.io 免费注册账号
+   2. 创建一个新表单（New Form），填入你的邮箱
+   3. 复制获得的 Form ID（如 abcxyz12）
+   4. 将下面的 'YOUR_FORM_ID' 替换为你的 ID
+   ======================================= */
+const FORMSPREE_ID = 'YOUR_FORM_ID';
+
+document.getElementById('contactForm').addEventListener('submit', async function (e) {
   e.preventDefault();
-  const btn = this.querySelector('button[type=submit]');
-  btn.textContent = '✓ 留言已提交';
-  btn.style.background = '#388e3c';
-  btn.disabled = true;
-  setTimeout(() => { btn.textContent = '发送留言'; btn.style.background = ''; btn.disabled = false; this.reset(); }, 3000);
+  const form = this;
+  const btn  = form.querySelector('button[type=submit]');
+  const orig = btn.textContent;
+
+  btn.textContent = '发送中…';
+  btn.disabled    = true;
+  btn.style.opacity = '0.75';
+
+  try {
+    const res = await fetch(`https://formspree.io/f/${FORMSPREE_ID}`, {
+      method:  'POST',
+      body:    new FormData(form),
+      headers: { 'Accept': 'application/json' }
+    });
+
+    if (res.ok) {
+      btn.textContent      = '✓ 留言已发送，我们会尽快回复';
+      btn.style.background = '#27ae60';
+      btn.style.opacity    = '1';
+      form.reset();
+      setTimeout(() => {
+        btn.textContent      = orig;
+        btn.style.background = '';
+        btn.disabled         = false;
+      }, 5000);
+    } else {
+      throw new Error('server error');
+    }
+  } catch {
+    btn.textContent      = '✗ 发送失败，请直接发邮件联系';
+    btn.style.background = '#c0392b';
+    btn.style.opacity    = '1';
+    setTimeout(() => {
+      btn.textContent      = orig;
+      btn.style.background = '';
+      btn.disabled         = false;
+    }, 4000);
+  }
 });
 </script>
 </body>
