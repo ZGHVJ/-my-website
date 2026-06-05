@@ -97,6 +97,24 @@ ul { list-style: none; }
   margin-left: 8px;
 }
 .navbar-search-btn:hover { background: rgba(255,255,255,0.2); }
+.lang-toggle {
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.45);
+  color: rgba(255,255,255,0.9);
+  padding: 4px 11px;
+  border-radius: 14px;
+  cursor: pointer;
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  transition: all var(--transition);
+  flex-shrink: 0;
+  margin-left: 6px;
+}
+.lang-toggle:hover { background: rgba(255,255,255,0.18); color: #fff; border-color: rgba(255,255,255,0.75); }
+/* 双语显示控制 */
+html.lang-en .zh-only { display: none !important; }
+html:not(.lang-en) .en-only { display: none !important; }
 .burger {
   display: none;
   flex-direction: column;
