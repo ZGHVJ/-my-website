@@ -105,7 +105,8 @@ function updatePubCount() {
   const el = document.getElementById('pubCount');
   if (!el) return;
   const visible = document.querySelectorAll('.pub-item:not(.hidden)').length;
-  el.textContent = `共 ${visible} 篇`;
+  const isEn = localStorage.getItem('lang') === 'en';
+  el.textContent = isEn ? `${visible} papers` : `共 ${visible} 篇`;
 }
 
 initPubFilters();
@@ -173,6 +174,45 @@ async function initSearch() {
 }
 
 initSearch();
+
+// ==================== LANGUAGE TOGGLE ====================
+(function () {
+  const saved = localStorage.getItem('lang') || 'zh';
+  // 立即给 html 加类，避免闪烁
+  if (saved === 'en') document.documentElement.classList.add('lang-en');
+
+  function applyLang(lang) {
+    // data-zh / data-en 文字节点
+    document.querySelectorAll('[data-zh][data-en]').forEach(el => {
+      el.textContent = lang === 'zh' ? el.dataset.zh : el.dataset.en;
+    });
+    // zh-only / en-only 块
+    document.documentElement.classList.toggle('lang-en', lang === 'en');
+    // 按钮文字
+    const btn = document.getElementById('langToggle');
+    if (btn) btn.textContent = lang === 'zh' ? 'EN' : '中';
+    // html lang 属性
+    document.documentElement.lang = lang === 'zh' ? 'zh-CN' : 'en';
+    // 搜索框 placeholder
+    document.querySelectorAll('[data-zh-placeholder]').forEach(el => {
+      el.placeholder = lang === 'zh' ? el.dataset.zhPlaceholder : el.dataset.enPlaceholder;
+    });
+    // 论文计数文字
+    updatePubCount();
+    localStorage.setItem('lang', lang);
+  }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    applyLang(saved);
+    const btn = document.getElementById('langToggle');
+    if (btn) {
+      btn.addEventListener('click', function () {
+        const cur = localStorage.getItem('lang') || 'zh';
+        applyLang(cur === 'zh' ? 'en' : 'zh');
+      });
+    }
+  });
+})();
 
 // ==================== COUNTER ANIMATION ====================
 function animateCounters() {
