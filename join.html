@@ -9,26 +9,28 @@
     /* ===== 岗位卡片 ===== */
     .position-card {
       background: #fff;
-      border-radius: 12px;
-      box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+      border: 1px solid #e3e8ef;
+      border-radius: 6px;
+      box-shadow: 0 1px 3px rgba(16,46,82,0.06);
       padding: 32px;
-      border-top: 4px solid var(--primary);
+      border-top: 3px solid var(--accent);
       margin-bottom: 28px;
     }
     .position-card h3 {
       font-size: 1.15rem;
       font-weight: 700;
-      color: #1a3a5c;
+      color: #102e52;
       margin-bottom: 6px;
     }
     .position-badge {
       display: inline-block;
-      background: #e8f0fe;
-      color: #1a3a5c;
+      background: #eef2f7;
+      color: #102e52;
       font-size: 0.75rem;
       font-weight: 600;
-      padding: 3px 10px;
-      border-radius: 20px;
+      letter-spacing: 0.04em;
+      padding: 3px 12px;
+      border-radius: 2px;
       margin-bottom: 16px;
     }
     .position-card ul {
@@ -42,15 +44,15 @@
       display: inline-block;
       margin-top: 20px;
       padding: 9px 24px;
-      background: #1a3a5c;
+      background: #102e52;
       color: #fff;
-      border-radius: 6px;
+      border-radius: 2px;
       font-size: 0.85rem;
       font-weight: 600;
       text-decoration: none;
       transition: background 0.2s;
     }
-    .position-card .apply-btn:hover { background: #2980b9; }
+    .position-card .apply-btn:hover { background: #1d5a96; }
 
     /* ===== 流程步骤 ===== */
     .steps {
@@ -62,14 +64,15 @@
     .step {
       text-align: center;
       padding: 28px 20px;
-      background: #f8f9fa;
-      border-radius: 10px;
+      background: #f7f9fb;
+      border: 1px solid #e3e8ef;
+      border-radius: 6px;
       position: relative;
     }
     .step-num {
       width: 40px;
       height: 40px;
-      background: #1a3a5c;
+      background: #102e52;
       color: #fff;
       border-radius: 50%;
       font-size: 1rem;
@@ -79,7 +82,7 @@
       justify-content: center;
       margin: 0 auto 14px;
     }
-    .step h4 { font-size: 0.9rem; font-weight: 700; color: #1a3a5c; margin-bottom: 8px; }
+    .step h4 { font-size: 0.9rem; font-weight: 700; color: #102e52; margin-bottom: 8px; }
     .step p { font-size: 0.82rem; color: #666; line-height: 1.6; }
 
     /* ===== FAQ ===== */
@@ -90,14 +93,14 @@
     .faq-item:last-child { border-bottom: none; }
     .faq-q {
       font-weight: 700;
-      color: #1a3a5c;
+      color: #102e52;
       font-size: 0.95rem;
       cursor: pointer;
       display: flex;
       justify-content: space-between;
       align-items: center;
     }
-    .faq-q::after { content: '+'; font-size: 1.2rem; color: #2980b9; }
+    .faq-q::after { content: '+'; font-size: 1.2rem; color: #1d5a96; }
     .faq-q.open::after { content: '−'; }
     .faq-a {
       display: none;
@@ -120,15 +123,16 @@
       padding: 28px 16px;
     }
     .advantage-icon { font-size: 2.2rem; margin-bottom: 12px; }
-    .advantage-item h4 { font-size: 0.95rem; font-weight: 700; color: #1a3a5c; margin-bottom: 8px; }
+    .advantage-item h4 { font-size: 0.95rem; font-weight: 700; color: #102e52; margin-bottom: 8px; }
     .advantage-item p { font-size: 0.83rem; color: #666; line-height: 1.7; }
 
     /* ===== CTA 横幅 ===== */
     .cta-banner {
-      background: linear-gradient(135deg, #1a3a5c 0%, #2980b9 100%);
+      background: linear-gradient(135deg, #0a1f3a 0%, #16406e 100%);
+      border: 1px solid rgba(217,188,111,0.35);
       color: #fff;
       padding: 48px 32px;
-      border-radius: 12px;
+      border-radius: 8px;
       text-align: center;
       margin-top: 56px;
     }
@@ -137,14 +141,14 @@
     .cta-btns { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
     .cta-btns a {
       padding: 12px 28px;
-      border-radius: 6px;
+      border-radius: 2px;
       font-weight: 600;
       font-size: 0.9rem;
       text-decoration: none;
       transition: transform 0.15s;
     }
     .cta-btns a:hover { transform: translateY(-2px); }
-    .cta-btn-primary { background: #fff; color: #1a3a5c; }
+    .cta-btn-primary { background: #fff; color: #102e52; }
     .cta-btn-secondary { background: rgba(255,255,255,0.15); color: #fff; border: 1px solid rgba(255,255,255,0.5); }
   </style>
 </head>
@@ -160,7 +164,6 @@
       <a href="publications.html" data-zh="发表论文" data-en="Publications">发表论文</a>
       <a href="news.html" data-zh="新闻动态" data-en="News">新闻动态</a>
       <a href="gallery.html" data-zh="相册" data-en="Gallery">相册</a>
-      <a href="equipment.html" data-zh="实验设备" data-en="Equipment">实验设备</a>
       <a href="contact.html" data-zh="联系我们" data-en="Contact">联系我们</a>
       <button class="navbar-search-btn" id="navSearchBtn" data-zh="🔍 搜索" data-en="🔍 Search">🔍 搜索</button>
     </div>
@@ -238,9 +241,9 @@
     </div>
 
     <!-- 博士生 -->
-    <div class="position-card" style="border-top-color:#2980b9;">
+    <div class="position-card" style="border-top-color:#1d5a96;">
       <h3>博士研究生</h3>
-      <span class="position-badge" style="background:#e3f2fd;">每年招收 1 名</span>
+      <span class="position-badge" style="background:#eef2f7;">每年招收 2-3 名</span>
       <p style="font-size:0.88rem;color:#444;margin-bottom:14px;">
         面向材料科学、机械工程、力学等相关专业的优秀硕士生或本科直博生，鼓励申请国家奖学金及天津大学各类博士生项目。
       </p>
@@ -250,13 +253,13 @@
         <li>英文读写能力良好，有一定文献阅读基础</li>
         <li>欢迎有本科科研经历（SRTP/竞赛/发表）的同学</li>
       </ul>
-      <a href="mailto:wangycl@tju.edu.cn" class="apply-btn" style="background:#2980b9;">联系导师咨询 →</a>
+      <a href="mailto:wangycl@tju.edu.cn" class="apply-btn" style="background:#1d5a96;">联系导师咨询 →</a>
     </div>
 
     <!-- 硕士生 -->
     <div class="position-card" style="border-top-color:#27ae60;">
       <h3>硕士研究生</h3>
-      <span class="position-badge" style="background:#e8f5e9;color:#1e7e34;">每年招收 3 名</span>
+      <span class="position-badge" style="background:#eaf2ec;color:#1e7e34;">每年招收 5-7 名</span>
       <p style="font-size:0.88rem;color:#444;margin-bottom:14px;">
         欢迎材料科学与工程、机械工程、物理、化学等专业的本科生报考。课题组提供完善的实验培训和全程科研指导，帮助同学快速成长为独立研究者。
       </p>
@@ -273,7 +276,7 @@
     <!-- 本科生 -->
     <div class="position-card" style="border-top-color:#8e44ad;">
       <h3>本科生科研</h3>
-      <span class="position-badge" style="background:#f3e5f5;color:#6a1b9a;">全年接受申请</span>
+      <span class="position-badge" style="background:#efecf5;color:#6a1b9a;">全年接受申请</span>
       <p style="font-size:0.88rem;color:#444;margin-bottom:14px;">
         欢迎天津大学在读本科生加入课题组开展科研训练（SRTP、毕业设计等），提前了解科研工作，为升学深造打好基础。
       </p>
@@ -293,7 +296,7 @@
       <div class="step">
         <div class="step-num">1</div>
         <h4>了解研究方向</h4>
-        <p>浏览<a href="research.html" style="color:#2980b9;">科研方向</a>和<a href="publications.html" style="color:#2980b9;">近期论文</a>，确认与自己的兴趣契合。</p>
+        <p>浏览<a href="research.html" style="color:#1d5a96;">科研方向</a>和<a href="publications.html" style="color:#1d5a96;">近期论文</a>，确认与自己的兴趣契合。</p>
       </div>
       <div class="step">
         <div class="step-num">2</div>
@@ -329,7 +332,7 @@
       <div class="faq-item">
         <div class="faq-q">硕士生毕业后大概去哪些方向？</div>
         <div class="faq-a">
-          毕业生去向多元，包括华为、比亚迪、中航、国家实验室等知名企业和科研机构，也有继续攻读博士或赴海外深造的同学。详细可查看<a href="people.html#alumni" style="color:#2980b9;">历届毕业生列表</a>。
+          毕业生去向多元，包括华为、比亚迪、中航、国家实验室等知名企业和科研机构，也有继续攻读博士或赴海外深造的同学。详细可查看<a href="people.html#alumni" style="color:#1d5a96;">历届毕业生列表</a>。
         </div>
       </div>
       <div class="faq-item">

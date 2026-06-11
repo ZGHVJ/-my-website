@@ -145,8 +145,8 @@ async function initSearch() {
     if (!results.length) {
       resultsEl.innerHTML = `<div class="no-results">
         <div style="font-size:3rem;margin-bottom:16px;">🔍</div>
-        <p style="font-size:1.1rem;font-weight:600;color:#1a3a5c;margin-bottom:8px;">没有找到相关内容</p>
-        <p>请尝试其他关键词，如"论文"、"设备"、"成员"</p>
+        <p style="font-size:1.1rem;font-weight:600;color:#102e52;margin-bottom:8px;">没有找到相关内容</p>
+        <p>请尝试其他关键词，如"论文"、"研究方向"、"成员"</p>
       </div>`;
       return;
     }
@@ -237,3 +237,29 @@ if (heroEl && 'IntersectionObserver' in window) {
 } else if (heroEl) {
   animateCounters();
 }
+
+// ==================== SCROLL REVEAL ====================
+(function () {
+  if (!('IntersectionObserver' in window)) return;
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  const els = document.querySelectorAll('.card, .rd-card');
+  if (!els.length) return;
+  const obs = new IntersectionObserver(entries => {
+    entries.forEach(en => {
+      if (!en.isIntersecting) return;
+      en.target.classList.add('visible');
+      // 动画结束后移除 reveal，避免影响卡片自身的 hover 过渡
+      en.target.addEventListener('transitionend', function handler() {
+        en.target.classList.remove('reveal', 'visible');
+        en.target.style.transitionDelay = '';
+        en.target.removeEventListener('transitionend', handler);
+      });
+      obs.unobserve(en.target);
+    });
+  }, { threshold: 0.08, rootMargin: '0px 0px -20px 0px' });
+  els.forEach((el, i) => {
+    el.classList.add('reveal');
+    el.style.transitionDelay = (i % 3) * 70 + 'ms';
+    obs.observe(el);
+  });
+})();

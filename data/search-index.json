@@ -89,40 +89,5 @@
     "title": "Solid-State Electrolytes for Next-Generation Lithium Batteries",
     "body": "Wang F, Liu J, Wang Y et al. Advanced Materials 2024. 固态电解质，锂离子电池，Advanced Materials，下一代电池",
     "url": "publications.html"
-  },
-  {
-    "id": 14,
-    "category": "设备",
-    "title": "场发射透射电子显微镜 (FE-TEM)",
-    "body": "JEOL JEM-F200，200kV场发射透射电子显微镜，原子分辨率成像，EDS能谱，EELS，电子衍射，TEM，透射电镜",
-    "url": "equipment.html"
-  },
-  {
-    "id": 15,
-    "category": "设备",
-    "title": "X射线光电子能谱仪 (XPS)",
-    "body": "Thermo Scientific K-Alpha，表面元素分析，化学态分析，深度剖析，XPS，光电子能谱",
-    "url": "equipment.html"
-  },
-  {
-    "id": 16,
-    "category": "设备",
-    "title": "原子力显微镜 (AFM)",
-    "body": "Bruker MultiMode 8-HR，纳米尺度形貌，力学性质，导电AFM，KPFM，原子力显微镜，扫描探针",
-    "url": "equipment.html"
-  },
-  {
-    "id": 17,
-    "category": "设备",
-    "title": "磁控溅射镀膜系统",
-    "body": "Angstrom Engineering EvoVac，多靶材磁控溅射，薄膜制备，PVD，物理气相沉积，镀膜",
-    "url": "equipment.html"
-  },
-  {
-    "id": 18,
-    "category": "设备",
-    "title": "激光拉曼光谱仪",
-    "body": "Renishaw inVia，514nm/633nm/785nm激光，显微拉曼，材料表征，拉曼，振动光谱",
-    "url": "equipment.html"
   }
 ]

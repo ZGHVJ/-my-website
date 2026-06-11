@@ -110,7 +110,6 @@
       <a href="publications.html" data-zh="发表论文"   data-en="Publications">发表论文</a>
       <a href="news.html"         data-zh="新闻动态"   data-en="News">新闻动态</a>
       <a href="gallery.html"      data-zh="相册"      data-en="Gallery">相册</a>
-      <a href="equipment.html"    data-zh="实验设备"   data-en="Equipment">实验设备</a>
       <a href="contact.html"      data-zh="联系我们"   data-en="Contact">联系我们</a>
       <button class="navbar-search-btn" id="navSearchBtn" data-zh="🔍 搜索" data-en="🔍 Search">🔍 搜索</button>
     </div>
@@ -119,7 +118,7 @@
   </div>
 </nav>
 
-<div class="page-hero" style="background: linear-gradient(135deg, var(--primary) 0%, #2c5282 100%);">
+<div class="page-hero" style="background: linear-gradient(135deg, var(--primary) 0%, #16406e 100%);">
   <div class="container">
     <div class="breadcrumb">
       <a href="index.html">首页</a><span class="sep">/</span>
@@ -137,15 +136,15 @@
     <!-- 统计卡片 -->
     <div class="map-stats-row">
       <div class="map-stat-card">
-        <div class="map-stat-num" style="color:#1a3a5c;">37</div>
+        <div class="map-stat-num" style="color:#102e52;">37</div>
         <div class="map-stat-label">位毕业校友</div>
       </div>
       <div class="map-stat-card">
-        <div class="map-stat-num" style="color:#2980b9;">16</div>
+        <div class="map-stat-num" style="color:#1d5a96;">16</div>
         <div class="map-stat-label">个就业城市</div>
       </div>
       <div class="map-stat-card">
-        <div class="map-stat-num" style="color:#e8a020;">2</div>
+        <div class="map-stat-num" style="color:#b08d3e;">2</div>
         <div class="map-stat-label">个国家/地区</div>
       </div>
       <div class="map-stat-card">
@@ -160,7 +159,7 @@
       <div class="overseas-item">
         <span>仇奇文</span>
         <span style="color:#888;font-size:0.8em;">2017届·硕士</span>
-        <span style="color:#2980b9;">麦吉尔大学，加拿大</span>
+        <span style="color:#1d5a96;">麦吉尔大学，加拿大</span>
       </div>
     </div>
 
@@ -191,7 +190,6 @@
         <a href="news.html">新闻动态</a>
         <a href="gallery.html">实验室相册</a>
         <a href="alumni-map.html">校友去向地图</a>
-        <a href="equipment.html">实验设备</a>
         <a href="contact.html">联系我们</a>
       </div></div>
       <div><h4>联系方式</h4><p style="font-size:0.84rem;line-height:2;">📧 wangycl@tju.edu.cn<br>📞 022-85356661<br>📍 天津大学31号教学楼</p></div>
@@ -267,8 +265,8 @@ const scatterData = Object.values(cityMap).map(loc => ({
 const chartDom = document.getElementById('alumni-map');
 const chart = echarts.init(chartDom);
 
-/* 从阿里云 DataV 加载符合国家标准的中国地图数据 */
-fetch('https://geo.datav.aliyun.com/areas_v3/bound/100000_full.json')
+/* 中国地图数据（本地文件，避免外部接口在部署后加载失败） */
+fetch('data/china-map.json')
   .then(r => r.json())
   .then(geoJson => {
     echarts.registerMap('china', geoJson);
@@ -283,14 +281,14 @@ fetch('https://geo.datav.aliyun.com/areas_v3/bound/100000_full.json')
           const d = params.data;
           const rows = d.people.map(p =>
             `<div style="padding:4px 0;border-bottom:1px solid #f0f0f0;line-height:1.5;">
-               <strong style="color:#1a3a5c;">${p.name}</strong>
+               <strong style="color:#102e52;">${p.name}</strong>
                <span style="color:#999;font-size:11px;margin-left:4px;">${p.year}届·${p.degree}</span><br>
                <span style="color:#555;font-size:11px;">${p.org}</span>
              </div>`
           ).join('');
           return `<div style="min-width:210px;max-width:280px;">
-            <div style="font-size:13px;font-weight:800;color:#1a3a5c;
-                        border-bottom:2px solid #e8a020;padding-bottom:6px;margin-bottom:4px;">
+            <div style="font-size:13px;font-weight:800;color:#102e52;
+                        border-bottom:2px solid #b08d3e;padding-bottom:6px;margin-bottom:4px;">
               📍 ${d.name}&ensp;<span style="font-weight:400;color:#888;font-size:11px;">${d.value[2]} 人</span>
             </div>
             ${rows}
@@ -321,13 +319,13 @@ fetch('https://geo.datav.aliyun.com/areas_v3/bound/100000_full.json')
           return Math.min(22 + val[2] * 5, 58);
         },
         itemStyle: {
-          color: '#1a3a5c',
+          color: '#102e52',
           opacity: 0.92,
           shadowBlur: 6,
           shadowColor: 'rgba(0,0,0,0.25)',
         },
         emphasis: {
-          itemStyle: { color: '#e8a020' },
+          itemStyle: { color: '#b08d3e' },
           scale: 1.15
         },
         label: {

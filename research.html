@@ -5,6 +5,75 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>科研方向 | Wang Research Group</title>
   <link rel="stylesheet" href="css/style.css">
+  <style>
+    /* ===== 研究方向卡片（编号式编辑排版） ===== */
+    .rd-card {
+      background: #fff;
+      border: 1px solid #e3e8ef;
+      border-radius: 6px;
+      box-shadow: 0 1px 3px rgba(16,46,82,0.06);
+      padding: 34px 38px;
+      margin-bottom: 28px;
+      transition: box-shadow 0.25s ease, border-color 0.25s ease;
+    }
+    .rd-card:hover { box-shadow: 0 12px 32px rgba(16,46,82,0.10); border-color: #d3dbe6; }
+    .rd-head {
+      display: flex;
+      gap: 24px;
+      align-items: flex-start;
+      padding-bottom: 22px;
+      border-bottom: 1px solid #edf0f5;
+      margin-bottom: 26px;
+    }
+    .rd-num {
+      font-family: 'Times New Roman', Georgia, serif;
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: #b08d3e;
+      line-height: 1;
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+    .rd-title { font-size: 1.22rem; font-weight: 700; color: #102e52; line-height: 1.4; }
+    .rd-sub {
+      font-family: Georgia, 'Times New Roman', serif;
+      font-style: italic;
+      font-size: 0.88rem;
+      color: #8a94a0;
+      margin-top: 3px;
+      letter-spacing: 0.02em;
+    }
+    .rd-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 13px; }
+    .rd-tags span {
+      font-size: 0.74rem;
+      color: #68737f;
+      border: 1px solid #e3e8ef;
+      background: #f9fafc;
+      padding: 2px 11px;
+      border-radius: 2px;
+      letter-spacing: 0.03em;
+    }
+    .rd-body { display: grid; grid-template-columns: 1.15fr 1fr; gap: 36px; }
+    .rd-body p { color: #555; line-height: 1.85; font-size: 0.92rem; margin-bottom: 14px; }
+    .rd-body p:last-child { margin-bottom: 0; }
+    .rd-side { border-left: 1px solid #edf0f5; padding-left: 30px; }
+    .rd-label {
+      font-size: 0.73rem;
+      font-weight: 700;
+      color: #b08d3e;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      margin-bottom: 13px;
+    }
+    .rd-list { list-style: none; display: flex; flex-direction: column; gap: 10px; padding: 0; margin: 0; }
+    .rd-list li { font-size: 0.86rem; color: #555; padding-left: 16px; position: relative; line-height: 1.65; }
+    .rd-list li::before { content: '▸'; position: absolute; left: 0; color: #b08d3e; }
+    @media (max-width: 800px) {
+      .rd-body { grid-template-columns: 1fr; gap: 24px; }
+      .rd-side { border-left: none; padding-left: 0; }
+      .rd-card { padding: 26px 22px; }
+    }
+  </style>
 </head>
 <body>
 
@@ -18,7 +87,6 @@
       <a href="publications.html" data-zh="发表论文" data-en="Publications">发表论文</a>
       <a href="news.html" data-zh="新闻动态" data-en="News">新闻动态</a>
       <a href="gallery.html" data-zh="相册" data-en="Gallery">相册</a>
-      <a href="equipment.html" data-zh="实验设备" data-en="Equipment">实验设备</a>
       <a href="contact.html" data-zh="联系我们" data-en="Contact">联系我们</a>
       <button class="navbar-search-btn" id="navSearchBtn" data-zh="🔍 搜索" data-en="🔍 Search">🔍 搜索</button>
     </div>
@@ -39,9 +107,9 @@
   <div class="container">
 
     <!-- 研究总览 -->
-    <div style="background:#fff;border-radius:10px;padding:32px 36px;box-shadow:0 2px 12px rgba(0,0,0,0.07);margin-bottom:48px;display:grid;grid-template-columns:1fr 1fr;gap:32px;align-items:center;">
+    <div style="background:#fff;border:1px solid #e3e8ef;border-radius:6px;padding:32px 36px;box-shadow:0 1px 3px rgba(16,46,82,0.06);margin-bottom:48px;display:grid;grid-template-columns:1fr 1fr;gap:32px;align-items:center;">
       <div>
-        <h2 style="font-size:1.4rem;font-weight:800;color:#1a3a5c;margin-bottom:12px;">研究总体定位</h2>
+        <h2 style="font-size:1.4rem;font-weight:800;color:#102e52;margin-bottom:12px;">研究总体定位</h2>
         <p style="color:#555;line-height:1.8;margin-bottom:12px;">
           课题组依托天津大学焊接与先进制造技术研究所，以"连接科学基础研究 → 先进制造工程应用"为主线，融合材料科学、力学与先进表征技术，围绕国家重大装备制造需求开展高水平基础与应用研究。
         </p>
@@ -50,20 +118,20 @@
         </p>
       </div>
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;">
-        <div style="background:#e3f2fd;border-radius:8px;padding:20px;text-align:center;">
-          <div style="font-size:2rem;font-weight:800;color:#1a3a5c;">6</div>
+        <div style="background:#eef2f7;border-radius:8px;padding:20px;text-align:center;">
+          <div style="font-size:2rem;font-weight:800;color:#102e52;">6</div>
           <div style="font-size:0.82rem;color:#555;margin-top:4px;">主要研究方向</div>
         </div>
-        <div style="background:#e8f5e9;border-radius:8px;padding:20px;text-align:center;">
-          <div style="font-size:2rem;font-weight:800;color:#2e7d32;">34+</div>
+        <div style="background:#eaf2ec;border-radius:8px;padding:20px;text-align:center;">
+          <div style="font-size:2rem;font-weight:800;color:#2e6b46;">200+</div>
           <div style="font-size:0.82rem;color:#555;margin-top:4px;">发表SCI论文</div>
         </div>
-        <div style="background:#fff8e1;border-radius:8px;padding:20px;text-align:center;">
-          <div style="font-size:2rem;font-weight:800;color:#f57c00;">5</div>
+        <div style="background:#f7f1e2;border-radius:8px;padding:20px;text-align:center;">
+          <div style="font-size:2rem;font-weight:800;color:#97793a;">5</div>
           <div style="font-size:0.82rem;color:#555;margin-top:4px;">在研项目</div>
         </div>
-        <div style="background:#f3e5f5;border-radius:8px;padding:20px;text-align:center;">
-          <div style="font-size:2rem;font-weight:800;color:#7b1fa2;">1</div>
+        <div style="background:#efecf5;border-radius:8px;padding:20px;text-align:center;">
+          <div style="font-size:2rem;font-weight:800;color:#5e5286;">2</div>
           <div style="font-size:0.82rem;color:#555;margin-top:4px;">ESI高被引论文</div>
         </div>
       </div>
@@ -74,228 +142,156 @@
     <p class="section-subtitle">六大核心研究领域，涵盖材料到器件的完整链条</p>
 
     <!-- 方向1 -->
-    <div style="background:#fff;border-radius:10px;box-shadow:0 2px 12px rgba(0,0,0,0.07);overflow:hidden;margin-bottom:28px;">
-      <div style="background:linear-gradient(135deg,#1a3a5c,#1f5080);padding:24px 28px;display:flex;align-items:center;gap:16px;">
-        <div style="font-size:2.2rem;">🔗</div>
+    <div class="rd-card">
+      <div class="rd-head">
+        <div class="rd-num">01</div>
         <div>
-          <div style="font-size:1.15rem;font-weight:800;color:#fff;">1. 新材料及异种材料连接</div>
-          <div style="font-size:0.85rem;color:rgba(255,255,255,0.75);">高熵合金 · 钛合金 · 铝合金 · 异种金属接头</div>
+          <div class="rd-title">新材料及异种材料连接</div>
+          <div class="rd-sub">Joining of Novel &amp; Dissimilar Materials</div>
+          <div class="rd-tags"><span>高熵合金</span><span>钛合金</span><span>铝合金</span><span>异种金属接头</span></div>
         </div>
       </div>
-      <div style="padding:28px;display:grid;grid-template-columns:1fr 1fr;gap:24px;">
+      <div class="rd-body">
         <div>
-          <p style="color:#555;line-height:1.8;margin-bottom:16px;">
-            针对高熵合金、钛合金、铝合金等新型金属材料及异种材料体系，系统研究焊接过程中的冶金行为、界面反应机制与元素扩散规律，揭示接头组织演变对力学性能的影响规律。
-          </p>
-          <p style="color:#555;line-height:1.8;">
-            结合原位电镜表征手段，实时观测焊接界面的形成过程，为异种材料连接工艺的优化提供理论支撑，实现高性能接头的可控制备。
-          </p>
+          <p>针对高熵合金、钛合金、铝合金等新型金属材料及异种材料体系，系统研究焊接过程中的冶金行为、界面反应机制与元素扩散规律，揭示接头组织演变对力学性能的影响规律。</p>
+          <p>结合原位电镜表征手段，实时观测焊接界面的形成过程，为异种材料连接工艺的优化提供理论支撑，实现高性能接头的可控制备。</p>
         </div>
-        <div>
-          <div style="font-size:0.82rem;font-weight:700;color:#1a3a5c;margin-bottom:10px;text-transform:uppercase;letter-spacing:0.06em;">核心成果</div>
-          <ul style="list-style:none;display:flex;flex-direction:column;gap:8px;">
-            <li style="font-size:0.85rem;color:#555;padding-left:16px;position:relative;line-height:1.6;">
-              <span style="position:absolute;left:0;color:#e8a020;">▸</span>
-              原位TEM揭示异种金属连接界面反应机制（Nature Communications）
-            </li>
-            <li style="font-size:0.85rem;color:#555;padding-left:16px;position:relative;line-height:1.6;">
-              <span style="position:absolute;left:0;color:#e8a020;">▸</span>
-              高熵合金焊接接头微纳力学行为研究（Matter）
-            </li>
-            <li style="font-size:0.85rem;color:#555;padding-left:16px;position:relative;line-height:1.6;">
-              <span style="position:absolute;left:0;color:#e8a020;">▸</span>
-              国家自然科学基金联合重点项目（2025—2028）支持
-            </li>
+        <div class="rd-side">
+          <div class="rd-label">核心成果</div>
+          <ul class="rd-list">
+            <li>(HfZrTiTaNb)C 高熵碳化物陶瓷扩散连接接头高温强度研究（Journal of Advanced Ceramics）</li>
+            <li>多主元合金中普遍存在的短程有序结构（Nature Communications）</li>
+            <li>国家自然科学基金联合重点项目（2025—2028）支持</li>
           </ul>
         </div>
       </div>
     </div>
 
     <!-- 方向2 -->
-    <div style="background:#fff;border-radius:10px;box-shadow:0 2px 12px rgba(0,0,0,0.07);overflow:hidden;margin-bottom:28px;">
-      <div style="background:linear-gradient(135deg,#6b1a1a,#922b21);padding:24px 28px;display:flex;align-items:center;gap:16px;">
-        <div style="font-size:2.2rem;">🏗️</div>
+    <div class="rd-card">
+      <div class="rd-head">
+        <div class="rd-num">02</div>
         <div>
-          <div style="font-size:1.15rem;font-weight:800;color:#fff;">2. 焊接结构评价与延寿</div>
-          <div style="font-size:0.85rem;color:rgba(255,255,255,0.75);">疲劳断裂 · 腐蚀行为 · 寿命预测 · 残余应力</div>
+          <div class="rd-title">焊接结构评价与延寿</div>
+          <div class="rd-sub">Structural Integrity &amp; Life Extension of Welded Structures</div>
+          <div class="rd-tags"><span>疲劳断裂</span><span>腐蚀行为</span><span>寿命预测</span><span>残余应力</span></div>
         </div>
       </div>
-      <div style="padding:28px;display:grid;grid-template-columns:1fr 1fr;gap:24px;">
+      <div class="rd-body">
         <div>
-          <p style="color:#555;line-height:1.8;margin-bottom:16px;">
-            针对工程领域中广泛应用的焊接结构，系统开展疲劳、断裂及腐蚀行为研究，分析焊接残余应力与焊接缺陷对结构完整性的影响，建立适用于工程实际的寿命预测模型。
-          </p>
-          <p style="color:#555;line-height:1.8;">
-            结合有限元模拟与试验验证，为海洋、航空、核能等领域关键焊接结构的延寿评估提供科学依据，保障重大工程装备的长期安全运役。
-          </p>
+          <p>针对工程领域中广泛应用的焊接结构，系统开展疲劳、断裂及腐蚀行为研究，分析焊接残余应力与焊接缺陷对结构完整性的影响，建立适用于工程实际的寿命预测模型。</p>
+          <p>结合有限元模拟与试验验证，为海洋、航空、核能等领域关键焊接结构的延寿评估提供科学依据，保障重大工程装备的长期安全运役。</p>
         </div>
-        <div>
-          <div style="font-size:0.82rem;font-weight:700;color:#1a3a5c;margin-bottom:10px;text-transform:uppercase;letter-spacing:0.06em;">核心成果</div>
-          <ul style="list-style:none;display:flex;flex-direction:column;gap:8px;">
-            <li style="font-size:0.85rem;color:#555;padding-left:16px;position:relative;line-height:1.6;">
-              <span style="position:absolute;left:0;color:#e8a020;">▸</span>
-              建立焊接接头多轴疲劳寿命预测模型
-            </li>
-            <li style="font-size:0.85rem;color:#555;padding-left:16px;position:relative;line-height:1.6;">
-              <span style="position:absolute;left:0;color:#e8a020;">▸</span>
-              揭示焊接残余应力对腐蚀疲劳的协同影响机制
-            </li>
-            <li style="font-size:0.85rem;color:#555;padding-left:16px;position:relative;line-height:1.6;">
-              <span style="position:absolute;left:0;color:#e8a020;">▸</span>
-              获天津市自然科学二等奖
-            </li>
+        <div class="rd-side">
+          <div class="rd-label">核心成果</div>
+          <ul class="rd-list">
+            <li>建立焊接接头多轴疲劳寿命预测模型</li>
+            <li>揭示焊接残余应力对腐蚀疲劳的协同影响机制</li>
+            <li>获天津市自然科学二等奖</li>
           </ul>
         </div>
       </div>
     </div>
 
     <!-- 方向3 -->
-    <div style="background:#fff;border-radius:10px;box-shadow:0 2px 12px rgba(0,0,0,0.07);overflow:hidden;margin-bottom:28px;">
-      <div style="background:linear-gradient(135deg,#1a3d1a,#27632a);padding:24px 28px;display:flex;align-items:center;gap:16px;">
-        <div style="font-size:2.2rem;">⚙️</div>
+    <div class="rd-card">
+      <div class="rd-head">
+        <div class="rd-num">03</div>
         <div>
-          <div style="font-size:1.15rem;font-weight:800;color:#fff;">3. 电弧增材制造</div>
-          <div style="font-size:0.85rem;color:rgba(255,255,255,0.75);">WAAM · 钛合金 · 铝合金 · 组织与性能调控</div>
+          <div class="rd-title">电弧增材制造</div>
+          <div class="rd-sub">Wire Arc Additive Manufacturing (WAAM)</div>
+          <div class="rd-tags"><span>WAAM</span><span>钛合金</span><span>铝合金</span><span>组织与性能调控</span></div>
         </div>
       </div>
-      <div style="padding:28px;display:grid;grid-template-columns:1fr 1fr;gap:24px;">
+      <div class="rd-body">
         <div>
-          <p style="color:#555;line-height:1.8;margin-bottom:16px;">
-            基于电弧熔丝增材制造（Wire Arc Additive Manufacturing, WAAM）技术，系统研究钛合金、铝合金、高强钢等材料的增材成形工艺参数、热-力耦合行为与微观组织演变规律。
-          </p>
-          <p style="color:#555;line-height:1.8;">
-            通过工艺优化与后处理技术相结合，调控增材构件的微观组织，实现大型复杂金属结构件的高效、低成本、高性能制造，为航空航天、船舶海工等领域提供技术支撑。
-          </p>
+          <p>基于电弧熔丝增材制造（Wire Arc Additive Manufacturing, WAAM）技术，系统研究钛合金、铝合金、高强钢等材料的增材成形工艺参数、热-力耦合行为与微观组织演变规律。</p>
+          <p>通过工艺优化与后处理技术相结合，调控增材构件的微观组织，实现大型复杂金属结构件的高效、低成本、高性能制造，为航空航天、船舶海工等领域提供技术支撑。</p>
         </div>
-        <div>
-          <div style="font-size:0.82rem;font-weight:700;color:#1a3a5c;margin-bottom:10px;text-transform:uppercase;letter-spacing:0.06em;">核心成果</div>
-          <ul style="list-style:none;display:flex;flex-direction:column;gap:8px;">
-            <li style="font-size:0.85rem;color:#555;padding-left:16px;position:relative;line-height:1.6;">
-              <span style="position:absolute;left:0;color:#e8a020;">▸</span>
-              钛合金WAAM构件组织与力学性能研究（Advanced Materials）
-            </li>
-            <li style="font-size:0.85rem;color:#555;padding-left:16px;position:relative;line-height:1.6;">
-              <span style="position:absolute;left:0;color:#e8a020;">▸</span>
-              建立增材制造热循环-组织-性能预测模型
-            </li>
-            <li style="font-size:0.85rem;color:#555;padding-left:16px;position:relative;line-height:1.6;">
-              <span style="position:absolute;left:0;color:#e8a020;">▸</span>
-              国家自然科学基金面上项目（2022—2025）支持
-            </li>
+        <div class="rd-side">
+          <div class="rd-label">核心成果</div>
+          <ul class="rd-list">
+            <li>双丝电弧增材制造 Inconel 625/TC4 功能梯度材料的成分梯度设计与性能调控</li>
+            <li>建立增材制造热循环-组织-性能预测模型</li>
+            <li>国家自然科学基金面上项目（2022—2025）支持</li>
           </ul>
         </div>
       </div>
     </div>
 
     <!-- 方向4 -->
-    <div style="background:#fff;border-radius:10px;box-shadow:0 2px 12px rgba(0,0,0,0.07);overflow:hidden;margin-bottom:28px;">
-      <div style="background:linear-gradient(135deg,#1f1a4a,#332e7a);padding:24px 28px;display:flex;align-items:center;gap:16px;">
-        <div style="font-size:2.2rem;">🔬</div>
+    <div class="rd-card">
+      <div class="rd-head">
+        <div class="rd-num">04</div>
         <div>
-          <div style="font-size:1.15rem;font-weight:800;color:#fff;">4. 原位电镜表征</div>
-          <div style="font-size:0.85rem;color:rgba(255,255,255,0.75);">原位TEM · 界面反应 · 动态观测 · 相变表征</div>
+          <div class="rd-title">原位电镜表征</div>
+          <div class="rd-sub">In-situ TEM Characterization</div>
+          <div class="rd-tags"><span>原位TEM</span><span>界面反应</span><span>动态观测</span><span>相变表征</span></div>
         </div>
       </div>
-      <div style="padding:28px;display:grid;grid-template-columns:1fr 1fr;gap:24px;">
+      <div class="rd-body">
         <div>
-          <p style="color:#555;line-height:1.8;margin-bottom:16px;">
-            发展原位透射电子显微镜技术，在原子尺度实时观测焊接界面的形成、相变及变形断裂过程，揭示连接过程中的微观动态机制。
-          </p>
-          <p style="color:#555;line-height:1.8;">
-            通过原位加热、原位拉伸及原位电子束辐照等实验手段，直接捕捉界面扩散、析出相形核及裂纹萌生扩展的动态过程，为连接工艺优化提供原子尺度依据。
-          </p>
+          <p>发展原位透射电子显微镜技术，在原子尺度实时观测焊接界面的形成、相变及变形断裂过程，揭示连接过程中的微观动态机制。</p>
+          <p>通过原位加热、原位拉伸及原位电子束辐照等实验手段，直接捕捉界面扩散、析出相形核及裂纹萌生扩展的动态过程，为连接工艺优化提供原子尺度依据。</p>
         </div>
-        <div>
-          <div style="font-size:0.82rem;font-weight:700;color:#1a3a5c;margin-bottom:10px;text-transform:uppercase;letter-spacing:0.06em;">核心成果</div>
-          <ul style="list-style:none;display:flex;flex-direction:column;gap:8px;">
-            <li style="font-size:0.85rem;color:#555;padding-left:16px;position:relative;line-height:1.6;">
-              <span style="position:absolute;left:0;color:#e8a020;">▸</span>
-              原位TEM观测异种金属界面反应（Nature Communications）
-            </li>
-            <li style="font-size:0.85rem;color:#555;padding-left:16px;position:relative;line-height:1.6;">
-              <span style="position:absolute;left:0;color:#e8a020;">▸</span>
-              原位加热实验揭示界面扩散行为与相变机制
-            </li>
-            <li style="font-size:0.85rem;color:#555;padding-left:16px;position:relative;line-height:1.6;">
-              <span style="position:absolute;left:0;color:#e8a020;">▸</span>
-              入选ESI高被引论文，单篇最高引用396次
-            </li>
+        <div class="rd-side">
+          <div class="rd-label">核心成果</div>
+          <ul class="rd-list">
+            <li>单层石墨烯弹性应变的原位研究（Nature Communications，被引500+）</li>
+            <li>纳米晶材料晶粒旋转机制的多尺度观测（Science）</li>
+            <li>2篇论文入选ESI高被引论文</li>
           </ul>
         </div>
       </div>
     </div>
 
     <!-- 方向5 -->
-    <div style="background:#fff;border-radius:10px;box-shadow:0 2px 12px rgba(0,0,0,0.07);overflow:hidden;margin-bottom:28px;">
-      <div style="background:linear-gradient(135deg,#4a2c10,#7a4a20);padding:24px 28px;display:flex;align-items:center;gap:16px;">
-        <div style="font-size:2.2rem;">📐</div>
+    <div class="rd-card">
+      <div class="rd-head">
+        <div class="rd-num">05</div>
         <div>
-          <div style="font-size:1.15rem;font-weight:800;color:#fff;">5. 微纳力学</div>
-          <div style="font-size:0.85rem;color:rgba(255,255,255,0.75);">纳米压痕 · 微柱压缩 · 原位拉伸 · 多尺度表征</div>
+          <div class="rd-title">微纳力学</div>
+          <div class="rd-sub">Micro- &amp; Nano-mechanics</div>
+          <div class="rd-tags"><span>纳米压痕</span><span>微柱压缩</span><span>原位拉伸</span><span>多尺度表征</span></div>
         </div>
       </div>
-      <div style="padding:28px;display:grid;grid-template-columns:1fr 1fr;gap:24px;">
+      <div class="rd-body">
         <div>
-          <p style="color:#555;line-height:1.8;margin-bottom:16px;">
-            利用纳米压痕、微柱压缩、原位拉伸等微纳米力学测试手段，定量表征焊接接头热影响区、界面区等局部区域的力学性质。
-          </p>
-          <p style="color:#555;line-height:1.8;">
-            建立局部力学性质与宏观性能之间的多尺度关联，为焊接接头本构模型的建立及结构完整性评价提供精确的微区力学数据支撑。
-          </p>
+          <p>利用纳米压痕、微柱压缩、原位拉伸等微纳米力学测试手段，定量表征焊接接头热影响区、界面区等局部区域的力学性质。</p>
+          <p>建立局部力学性质与宏观性能之间的多尺度关联，为焊接接头本构模型的建立及结构完整性评价提供精确的微区力学数据支撑。</p>
         </div>
-        <div>
-          <div style="font-size:0.82rem;font-weight:700;color:#1a3a5c;margin-bottom:10px;text-transform:uppercase;letter-spacing:0.06em;">核心成果</div>
-          <ul style="list-style:none;display:flex;flex-direction:column;gap:8px;">
-            <li style="font-size:0.85rem;color:#555;padding-left:16px;position:relative;line-height:1.6;">
-              <span style="position:absolute;left:0;color:#e8a020;">▸</span>
-              微柱压缩表征高熵合金接头力学行为（Matter）
-            </li>
-            <li style="font-size:0.85rem;color:#555;padding-left:16px;position:relative;line-height:1.6;">
-              <span style="position:absolute;left:0;color:#e8a020;">▸</span>
-              纳米压痕系统测定焊接接头各区域硬化行为
-            </li>
-            <li style="font-size:0.85rem;color:#555;padding-left:16px;position:relative;line-height:1.6;">
-              <span style="position:absolute;left:0;color:#e8a020;">▸</span>
-              建立局部力学性质与宏观性能的多尺度关联模型
-            </li>
+        <div class="rd-side">
+          <div class="rd-label">核心成果</div>
+          <ul class="rd-list">
+            <li>超薄4H六方金纳米带的热效应与瑞利失稳研究（Matter）</li>
+            <li>少层六方氮化硼（h-BN）拉伸力学性能的直接测量</li>
+            <li>建立局部力学性质与宏观性能的多尺度关联模型</li>
           </ul>
         </div>
       </div>
     </div>
 
     <!-- 方向6 -->
-    <div style="background:#fff;border-radius:10px;box-shadow:0 2px 12px rgba(0,0,0,0.07);overflow:hidden;margin-bottom:28px;">
-      <div style="background:linear-gradient(135deg,#0f3333,#1a5252);padding:24px 28px;display:flex;align-items:center;gap:16px;">
-        <div style="font-size:2.2rem;">💻</div>
+    <div class="rd-card">
+      <div class="rd-head">
+        <div class="rd-num">06</div>
         <div>
-          <div style="font-size:1.15rem;font-weight:800;color:#fff;">6. 半导体集成封装</div>
-          <div style="font-size:0.85rem;color:rgba(255,255,255,0.75);">互连材料 · 热-力可靠性 · 封装工艺 · 失效分析</div>
+          <div class="rd-title">半导体集成封装</div>
+          <div class="rd-sub">Advanced Semiconductor Packaging</div>
+          <div class="rd-tags"><span>互连材料</span><span>热-力可靠性</span><span>封装工艺</span><span>失效分析</span></div>
         </div>
       </div>
-      <div style="padding:28px;display:grid;grid-template-columns:1fr 1fr;gap:24px;">
+      <div class="rd-body">
         <div>
-          <p style="color:#555;line-height:1.8;margin-bottom:16px;">
-            研究先进芯片封装中焊点、铜柱等互连结构的材料与工艺，解决高密度封装中热-力耦合引起的可靠性失效问题。
-          </p>
-          <p style="color:#555;line-height:1.8;">
-            结合原位电镜与微纳力学表征手段，揭示封装互连材料在热循环服役条件下的微观损伤演变机制，为下一代先进封装的可靠性设计提供理论基础。
-          </p>
+          <p>研究先进芯片封装中焊点、铜柱等互连结构的材料与工艺，解决高密度封装中热-力耦合引起的可靠性失效问题。</p>
+          <p>结合原位电镜与微纳力学表征手段，揭示封装互连材料在热循环服役条件下的微观损伤演变机制，为下一代先进封装的可靠性设计提供理论基础。</p>
         </div>
-        <div>
-          <div style="font-size:0.82rem;font-weight:700;color:#1a3a5c;margin-bottom:10px;text-transform:uppercase;letter-spacing:0.06em;">核心成果</div>
-          <ul style="list-style:none;display:flex;flex-direction:column;gap:8px;">
-            <li style="font-size:0.85rem;color:#555;padding-left:16px;position:relative;line-height:1.6;">
-              <span style="position:absolute;left:0;color:#e8a020;">▸</span>
-              原位TEM表征封装焊点热循环裂纹萌生机制（Advanced Materials）
-            </li>
-            <li style="font-size:0.85rem;color:#555;padding-left:16px;position:relative;line-height:1.6;">
-              <span style="position:absolute;left:0;color:#e8a020;">▸</span>
-              高密度封装热疲劳失效机理分析与寿命预测
-            </li>
-            <li style="font-size:0.85rem;color:#555;padding-left:16px;position:relative;line-height:1.6;">
-              <span style="position:absolute;left:0;color:#e8a020;">▸</span>
-              互连界面金属间化合物生长行为的原位研究
-            </li>
+        <div class="rd-side">
+          <div class="rd-label">核心成果</div>
+          <ul class="rd-list">
+            <li>二维场效应晶体管的三维集成研究（Nature）</li>
+            <li>高密度封装热疲劳失效机理分析与寿命预测</li>
+            <li>互连界面金属间化合物生长行为的原位研究</li>
           </ul>
         </div>
       </div>
@@ -306,12 +302,12 @@
       <h2 class="section-title">合作机构</h2>
       <p class="section-subtitle">与国内外一流高校和研究机构建立长期合作关系</p>
       <div style="display:flex;flex-wrap:wrap;gap:16px;">
-        <div style="background:#fff;border:1px solid #dee2e6;border-radius:8px;padding:14px 24px;font-size:0.88rem;color:#1a3a5c;font-weight:600;box-shadow:0 1px 6px rgba(0,0,0,0.05);">天津大学</div>
-        <div style="background:#fff;border:1px solid #dee2e6;border-radius:8px;padding:14px 24px;font-size:0.88rem;color:#1a3a5c;font-weight:600;box-shadow:0 1px 6px rgba(0,0,0,0.05);">哈尔滨工业大学</div>
-        <div style="background:#fff;border:1px solid #dee2e6;border-radius:8px;padding:14px 24px;font-size:0.88rem;color:#1a3a5c;font-weight:600;box-shadow:0 1px 6px rgba(0,0,0,0.05);">香港城市大学</div>
-        <div style="background:#fff;border:1px solid #dee2e6;border-radius:8px;padding:14px 24px;font-size:0.88rem;color:#1a3a5c;font-weight:600;box-shadow:0 1px 6px rgba(0,0,0,0.05);">Pennsylvania State University (美国)</div>
-        <div style="background:#fff;border:1px solid #dee2e6;border-radius:8px;padding:14px 24px;font-size:0.88rem;color:#1a3a5c;font-weight:600;box-shadow:0 1px 6px rgba(0,0,0,0.05);">UC Irvine (美国)</div>
-        <div style="background:#fff;border:1px solid #dee2e6;border-radius:8px;padding:14px 24px;font-size:0.88rem;color:#1a3a5c;font-weight:600;box-shadow:0 1px 6px rgba(0,0,0,0.05);">中国科学院金属研究所</div>
+        <div style="background:#fff;border:1px solid #e3e8ef;border-radius:4px;padding:13px 26px;font-size:0.88rem;color:#102e52;font-weight:600;letter-spacing:0.02em;">天津大学</div>
+        <div style="background:#fff;border:1px solid #e3e8ef;border-radius:4px;padding:13px 26px;font-size:0.88rem;color:#102e52;font-weight:600;letter-spacing:0.02em;">哈尔滨工业大学</div>
+        <div style="background:#fff;border:1px solid #e3e8ef;border-radius:4px;padding:13px 26px;font-size:0.88rem;color:#102e52;font-weight:600;letter-spacing:0.02em;">香港城市大学</div>
+        <div style="background:#fff;border:1px solid #e3e8ef;border-radius:4px;padding:13px 26px;font-size:0.88rem;color:#102e52;font-weight:600;letter-spacing:0.02em;">香港大学</div>
+        <div style="background:#fff;border:1px solid #e3e8ef;border-radius:4px;padding:13px 26px;font-size:0.88rem;color:#102e52;font-weight:600;letter-spacing:0.02em;">清华大学</div>
+        <div style="background:#fff;border:1px solid #e3e8ef;border-radius:4px;padding:13px 26px;font-size:0.88rem;color:#102e52;font-weight:600;letter-spacing:0.02em;">中国科学院金属研究所</div>
       </div>
     </div>
 
@@ -322,7 +318,7 @@
   <div class="container">
     <div class="footer-grid">
       <div><h4>Wang Research Group</h4><p>焊接与先进制造技术研究所<br>天津大学材料科学与工程学院</p></div>
-      <div><h4>快速导航</h4><div class="footer-links"><a href="research.html">科研方向</a><a href="people.html">课题组成员</a><a href="publications.html">发表论文</a><a href="news.html">新闻动态</a><a href="equipment.html">实验设备</a><a href="contact.html">联系我们</a></div></div>
+      <div><h4>快速导航</h4><div class="footer-links"><a href="research.html">科研方向</a><a href="people.html">课题组成员</a><a href="publications.html">发表论文</a><a href="news.html">新闻动态</a><a href="contact.html">联系我们</a></div></div>
       <div><h4>联系方式</h4><p style="font-size:0.84rem;line-height:2;">📧 wangycl@tju.edu.cn<br>📞 022-85356661<br>📍 天津大学31号教学楼</p></div>
     </div>
     <div class="footer-bottom"><span>© 2026 Wang Research Group. All rights reserved.</span><span>焊接与先进制造技术研究所 · 天津大学</span></div>
