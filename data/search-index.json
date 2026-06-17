@@ -3,91 +3,1610 @@
     "id": 1,
     "category": "人员",
     "title": "王颖 教授（课题组长）",
-    "body": "材料物理化学，纳米材料，能源存储，电催化，博士生导师，课题组长，PI，principal investigator",
-    "url": "people.html"
+    "body": "焊接与先进制造技术研究所 博士生导师 PI 课题组长。研究兴趣：新材料及异种材料连接、焊接结构评价与延寿、电弧增材制造。哈尔滨工业大学焊接技术与工程专业。",
+    "url": "wang-ying.html"
   },
   {
     "id": 2,
     "category": "人员",
-    "title": "李明 副教授",
-    "body": "薄膜材料，表面科学，XPS表征，副教授，研究员",
-    "url": "people.html"
+    "title": "杨振文 教授",
+    "body": "上海交通大学机械与动力工程学院 博士生导师。研究兴趣：异种材料连接技术、金属增材制造技术与装备、基于AI的在线质量监检测系统。",
+    "url": "yang-zhenwen.html"
   },
   {
     "id": 3,
     "category": "人员",
-    "title": "王芳 博士后",
-    "body": "电化学，锂离子电池，固态电解质，博士后",
-    "url": "people.html"
+    "title": "韩英 教授（英才教授）",
+    "body": "英才教授 博士生导师。研究兴趣：原位电镜表征、微纳力学、新材料及异种材料连接、半导体集成封装。香港城市大学机械工程博士，宾夕法尼亚州立大学、加州大学尔湾分校博士后。",
+    "url": "han-ying.html"
   },
   {
     "id": 4,
-    "category": "科研成果",
-    "title": "高性能钙钛矿太阳能电池界面工程",
-    "body": "通过界面工程优化钙钛矿太阳能电池性能，效率突破25%，发表于Nature Energy，钙钛矿，界面工程，太阳能电池，光伏",
-    "url": "research.html"
+    "category": "人员",
+    "title": "牛士玉 副研究员",
+    "body": "副研究员。研究方向：新材料连接与界面表征。",
+    "url": "people.html"
   },
   {
     "id": 5,
-    "category": "科研成果",
-    "title": "高熵合金电催化剂的设计与合成",
-    "body": "开发新型高熵合金纳米颗粒用于氧还原反应，燃料电池，电催化，高熵合金，ORR，OER",
-    "url": "research.html"
+    "category": "人员",
+    "title": "博士研究生",
+    "body": "陈晨、木瑞洁、杨蔚然、杨旭、赵宏伟。",
+    "url": "people.html"
   },
   {
     "id": 6,
-    "category": "科研成果",
-    "title": "二维材料异质结光电探测器",
-    "body": "MoS2/WSe2异质结构光电探测器，高响应率，低噪声，二维材料，TMD，光电子",
-    "url": "research.html"
+    "category": "人员",
+    "title": "硕士研究生",
+    "body": "兰中霖、王涛、温奇、雍臻、于泽、张冬雪、赵梓诚、孔德浩、刘子雨、唐文智、涂林甫、王越洋、韦卓夫、时炜捷、王永成、赵洋。",
+    "url": "people.html"
   },
   {
     "id": 7,
-    "category": "新闻",
-    "title": "课题组在Nature Communications发表重要研究成果",
-    "body": "2026年5月，我课题组在Nature Communications发表论文，揭示了高熵氧化物界面电荷转移机制，Nature Communications，论文发表",
-    "url": "news.html"
+    "category": "科研方向",
+    "title": "新材料及异种材料连接",
+    "body": "Joining of Novel & Dissimilar Materials。高熵合金、钛合金、铝合金、异种金属接头。焊接冶金行为、界面反应机制、元素扩散规律。",
+    "url": "research.html"
   },
   {
     "id": 8,
-    "category": "新闻",
-    "title": "张教授获国家自然科学基金重点项目资助",
-    "body": "2026年4月，王颖教授获批国家自然科学基金重点项目，经费500万元，项目周期5年，国家自然科学基金，NSFC，重点项目",
-    "url": "news.html"
+    "category": "科研方向",
+    "title": "焊接结构评价与延寿",
+    "body": "Structural Integrity & Life Extension。疲劳断裂、腐蚀行为、寿命预测、残余应力。海洋航空核能关键焊接结构延寿评估。",
+    "url": "research.html"
   },
   {
     "id": 9,
-    "category": "新闻",
-    "title": "欢迎2026级新同学加入课题组",
-    "body": "课题组迎来4名新博士生和2名硕士生，2026级，新生，欢迎",
-    "url": "news.html"
+    "category": "科研方向",
+    "title": "电弧增材制造 WAAM",
+    "body": "Wire Arc Additive Manufacturing。钛合金、铝合金、高强钢增材成形。热-力耦合行为、微观组织演变。",
+    "url": "research.html"
   },
   {
     "id": 10,
-    "category": "论文",
-    "title": "Interface Engineering of Perovskite Solar Cells",
-    "body": "Wang Y, Li M, Wang F et al. Nature Energy 2025. DOI: 10.1038/s41560-025-0001-x. 钙钛矿，太阳能电池，界面工程，Nature Energy",
-    "url": "publications.html"
+    "category": "科研方向",
+    "title": "原位电镜表征",
+    "body": "In-situ TEM Characterization。原位TEM、界面反应、动态观测、相变表征、原位加热拉伸。",
+    "url": "research.html"
   },
   {
     "id": 11,
-    "category": "论文",
-    "title": "High-Entropy Alloy Electrocatalysts for Oxygen Reduction",
-    "body": "Wang F, Chen X, Wang Y et al. Journal of the American Chemical Society 2025. JACS，电催化，高熵合金，氧还原",
-    "url": "publications.html"
+    "category": "科研方向",
+    "title": "微纳力学",
+    "body": "Micro- & Nano-mechanics。纳米压痕、微柱压缩、原位拉伸、多尺度表征。",
+    "url": "research.html"
   },
   {
     "id": 12,
-    "category": "论文",
-    "title": "MoS2/WSe2 Heterostructure Photodetectors",
-    "body": "Li M, Zhou Y, Wang Y et al. ACS Nano 2024. 二维材料，异质结，光电探测器，MoS2，WSe2，ACS Nano",
-    "url": "publications.html"
+    "category": "科研方向",
+    "title": "半导体集成封装",
+    "body": "Advanced Semiconductor Packaging。互连材料、热-力可靠性、封装工艺、失效分析。",
+    "url": "research.html"
   },
   {
     "id": 13,
+    "category": "新闻",
+    "title": "热烈祝贺杨旭、木瑞洁博士毕业，多名硕士毕业",
+    "body": "2026年5月。杨旭、木瑞洁博士毕业，兰中霖、王涛、温奇、雍臻、于泽、张冬雪硕士毕业。",
+    "url": "news.html"
+  },
+  {
+    "id": 14,
+    "category": "新闻",
+    "title": "欢迎韩英教授加入天津大学，担任英才教授",
+    "body": "2025年4月。韩英教授结束加州大学尔湾分校博士后研究，加入天津大学焊接与先进制造技术研究所，担任英才教授。",
+    "url": "news.html"
+  },
+  {
+    "id": 15,
+    "category": "新闻",
+    "title": "王颖教授获国家自然科学基金联合重点项目资助",
+    "body": "2025年。项目执行期2025—2028年，聚焦新材料及异种材料连接科学问题。",
+    "url": "news.html"
+  },
+  {
+    "id": 16,
+    "category": "新闻",
+    "title": "王颖教授荣获国家级教学成果二等奖",
+    "body": "2025年。同时荣获天津市教学成果特等奖，并获评十佳好导师。",
+    "url": "news.html"
+  },
+  {
+    "id": 17,
+    "category": "新闻",
+    "title": "韩英荣获宾夕法尼亚州立大学创新材料研究奖",
+    "body": "2024年。原位电镜表征与微纳力学领域突出成果。",
+    "url": "news.html"
+  },
+  {
+    "id": 18,
+    "category": "新闻",
+    "title": "课题组在高影响力期刊发表原位电镜表征研究成果",
+    "body": "2024年。揭示连接界面微观反应的动态演变机制。",
+    "url": "news.html"
+  },
+  {
+    "id": 19,
+    "category": "新闻",
+    "title": "王颖教授荣获天津市自然科学二等奖",
+    "body": "2024年。新材料连接冶金行为与接头性能调控研究成果。",
+    "url": "news.html"
+  },
+  {
+    "id": 20,
+    "category": "新闻",
+    "title": "韩英在 Nature Communications 发表异种金属连接界面研究成果",
+    "body": "2023年。原位透射电子显微镜观测异种金属连接界面反应机制。",
+    "url": "news.html"
+  },
+  {
+    "id": 21,
+    "category": "新闻",
+    "title": "王颖教授在全国焊接学术年会作邀请报告",
+    "body": "2023年。新材料及异种材料焊接研究进展。",
+    "url": "news.html"
+  },
+  {
+    "id": 22,
+    "category": "新闻",
+    "title": "王颖晋升天津大学教授",
+    "body": "2021年6月正式晋升天津大学教授。",
+    "url": "news.html"
+  },
+  {
+    "id": 23,
+    "category": "页面",
+    "title": "加入我们",
+    "body": "招收博士后、博士研究生、硕士研究生及本科生。博士后、博士、硕士、本科生科研、申请流程、常见问题。",
+    "url": "join.html"
+  },
+  {
+    "id": 24,
+    "category": "页面",
+    "title": "联系我们",
+    "body": "天津大学31号教学楼。电话 022-85356661。邮箱 wangycl@tju.edu.cn。",
+    "url": "contact.html"
+  },
+  {
+    "id": 25,
+    "category": "页面",
+    "title": "相册",
+    "body": "课题组毕业典礼、学术交流、实验室日常、课题组活动照片。",
+    "url": "gallery.html"
+  },
+  {
+    "id": 26,
+    "category": "页面",
+    "title": "校友去向地图",
+    "body": "历届毕业生工作单位与去向地图。",
+    "url": "alumni-map.html"
+  },
+  {
+    "id": 27,
     "category": "论文",
-    "title": "Solid-State Electrolytes for Next-Generation Lithium Batteries",
-    "body": "Wang F, Liu J, Wang Y et al. Advanced Materials 2024. 固态电解质，锂离子电池，Advanced Materials，下一代电池",
+    "title": "Reactive impregnation wetting drives high-thermally conductive metals to form heat transfer channels on the surface of vertically aligned carbon nanotubes",
+    "body": "Botao Li, Zhenwen Yang, Shiyu Niu*, Ying Han, Xibo Zhao, Ruiping Wang, Mengmeng Qin, Ying Wang* Applied Surface Science, 2026, 729: 166149",
+    "url": "publications.html"
+  },
+  {
+    "id": 28,
+    "category": "论文",
+    "title": "Enhancement of interfacial structure and mechanical properties of Zr-3 alloy and 304L stainless steel diffusion bonded joint via Ti interlayer introduction",
+    "body": "Zhuofu Wei, Xiwen Hu*, Shiyu Niu, Yuxin Wang, Zhongliang Liu, Zhenwen Yang, Ying Wang* Vacuum, 2026, 247: 115129",
+    "url": "publications.html"
+  },
+  {
+    "id": 29,
+    "category": "论文",
+    "title": "Effect of Post-weld Heat Treatment on the Microstructure and Mechanical Properties of the Heat-Affected Zone of Alloy 617",
+    "body": "Yuxin Wang, Zhaoqing Yang, Yu Gao, Chengning Li, Jing Ma, Yanwen Tao, Shiyu Niu, Zhenwen Yang, Ying Wang Journal of Materials Engineering and Performance, 2026",
+    "url": "publications.html"
+  },
+  {
+    "id": 30,
+    "category": "论文",
+    "title": "Residual stress and microstructure evolution of thin-walled Ti-6Al-4V fabricated by laser powder bed fusion in stress-relief annealing",
+    "body": "Z Lan, Y Wang, Shiyu Niu*, W Yang, Ying Han, Z Yang Journal of Alloys and Compounds, 2026",
+    "url": "publications.html"
+  },
+  {
+    "id": 31,
+    "category": "论文",
+    "title": "Unveiling the microscopic origins of dual-phase HfTaC2/W ceramics with enhanced plasticity",
+    "body": "C Zhang, K Cao, J Luo, X Zhu, J Liu, Ying Han, R He, Q Li, L Yang, Y Zhou Science China Technological Sciences, 2026",
+    "url": "publications.html"
+  },
+  {
+    "id": 32,
+    "category": "论文",
+    "title": "Grain boundaries amplify local chemical ordering in complex concentrated alloys",
+    "body": "I Geiger, Y Tian, Ying Han, Y Bi, X Pan, P Cao, TJ Rupert Acta Materialia, 2026",
+    "url": "publications.html"
+  },
+  {
+    "id": 33,
+    "category": "论文",
+    "title": "Superior high-temperature capacitive energy storage performance enabled by in situ grown nanodots in polymer nanocomposites",
+    "body": "Y Li, Y Chen, Z Li, Y Cui, L Cheng, K Cao, Ying Han, W Liu, Y Zhou Energy & Environmental Science, 2026",
+    "url": "publications.html"
+  },
+  {
+    "id": 34,
+    "category": "论文",
+    "title": "Deep Elastic Strain Engineering of Free-Standing GaN Microbridge",
+    "body": "S Fan, H Wang, CT Chou, J Chen, Ying Han, J Zhou, X Li, JP Chou, J Li Physical Review X, 2026",
+    "url": "publications.html"
+  },
+  {
+    "id": 35,
+    "category": "论文",
+    "title": "Excellent high-temperature strength of (HfZrTiTaNb)C high-entropy carbide diffusion-bonded joint via in-situ alloying of Ni/Nb/Ni composite interlayer",
+    "body": "Ruijie Mu, Ying Wang*, Shiyu Niu, Kongbo Sun, Zhenwen Yang* Journal of Advanced Ceramics, 2025, 14(1): 9221010",
+    "url": "publications.html"
+  },
+  {
+    "id": 36,
+    "category": "论文",
+    "title": "Microstructure and mechanical properties of SiC ceramics and Kovar alloy joints brazed with AgCuInTi and AgCuInTi plus B composite fillers",
+    "body": "Wang Y, Yong Z, Sun K B, Wen Q, Niu S Y, Yang Z W* Materials Characterization, 2025, 221: 114742",
+    "url": "publications.html"
+  },
+  {
+    "id": 37,
+    "category": "论文",
+    "title": "Refinement of microstructure and improvement of mechanical properties of directed energy deposited titanium alloys by adding Fe",
+    "body": "C.L. Shi, Y. Wang*, M. Zhang, W.R. Yang, H.J. Li, Z.W. Yang* Journal of Alloys and Compounds, 2025, 1010: 176996",
+    "url": "publications.html"
+  },
+  {
+    "id": 38,
+    "category": "论文",
+    "title": "Wetting behavior of Ti-Ni-xNb filler alloy on (HfTaZrNbTi)C high-entropy carbide ceramic",
+    "body": "Kongbo Sun, Zhenwen Yang*, Shiyu Niu, Ruijie Mu, Ying Wang Applied Surface Science, 2025, 679: 161243",
+    "url": "publications.html"
+  },
+  {
+    "id": 39,
+    "category": "论文",
+    "title": "Effect of hydrogenation on microstructure and mechanical properties of new zirconium alloy",
+    "body": "Wang Y, Wang R P, Wang Z M, Xiao Z L, Niu S Y, Yang X, Yang Z W* Intermetallics, 2025, 178: 108636",
+    "url": "publications.html"
+  },
+  {
+    "id": 40,
+    "category": "论文",
+    "title": "Enhancing diffusion bonding of Zr-4 alloy: The role of surface nanocrystallization in void closure and second phase particles suppression",
+    "body": "Yang X., Wang Y. X., Yang  Z. W., Hu X. D., Wang R. P., Li H. J., Niu S. Y.*, Wang Y.* Journal of Alloys and Compounds, 2025, 1035(5): 181545",
+    "url": "publications.html"
+  },
+  {
+    "id": 41,
+    "category": "论文",
+    "title": "Stabilized interfacial structure induced by self-dissolved active atoms in the (HfZrTiTaNb)C high-entropy carbide brazed joint using CoCrFeNi alloy",
+    "body": "Mu R J, Wang Y, Niu S Y, Sun K B, Yang Z W* Ceramics International, 2025, 51(15): 20006-20015",
+    "url": "publications.html"
+  },
+  {
+    "id": 42,
+    "category": "论文",
+    "title": "Diffusion mechanism of Zr-4 alloy at ultra-low temperature based on the α→β phase transition promoted by thermo-hydrogen treatment",
+    "body": "Ma Y K, Chang Q*, Ding H R, Sun Z, Guo X R, Long W M, Yang Z W, Wang Y, Zhang L X Acta Materialia, 2025, 294: 121156",
+    "url": "publications.html"
+  },
+  {
+    "id": 43,
+    "category": "论文",
+    "title": "Enhancing the Tensile Properties of Inconel 625/TC4 Functionally Graded Materials Prepared by DualWire Arc Additive Manufacturing via Compositional Gradient",
+    "body": "Hao L Y, Xu W, Liu X, Wang Z J*, Wang Y, He H Metallurgical and Materials Transactions B, 2025",
+    "url": "publications.html"
+  },
+  {
+    "id": 44,
+    "category": "论文",
+    "title": "Study on the Microstructure and Properties of Additive Manufacturing Al-Mg-Sc Alloy with CMT-PADV + Arc Weaving Process",
+    "body": "Xu H F, Yang L J, Huang Y M*, Wang Y* Journal of Materials Engineering and Performance, 2025, 331(15): 133499",
+    "url": "publications.html"
+  },
+  {
+    "id": 45,
+    "category": "论文",
+    "title": "Enhancing fatigue life of low-carbon ultra-high strength steel by inducing multi-component precipitates",
+    "body": "Yang X C, Ju Y Z, Li C N, Gao C, Ba L Z, Wu S P, Wang C, Ding T H, Wang Y, Di X J* International Journal of Plasticity, 2025, 187: 104287",
+    "url": "publications.html"
+  },
+  {
+    "id": 46,
+    "category": "论文",
+    "title": "Effect of Welding Thermal Cycles on Microstructure Transformation and Hardening Behaviour of HAZ for 1.0 GPa-grade Ultra-high Strength Seamless Steel Tube",
+    "body": "Han J Y, Li C N, Yang X C, Yang Y K, Wang Y, Zhao Y Q, Di X J* Journal of Materials Engineering and Performance, 2025",
+    "url": "publications.html"
+  },
+  {
+    "id": 47,
+    "category": "论文",
+    "title": "Unveiling the abnormal grain growth behavior in diffusion-bonded joints of zirconium alloys enhanced by gradient nanostructures",
+    "body": "Yang X, Wang Z M, Wang Y X, Niu S Y*, Qiu Q W, Li H J, Wang Y*, Yang Z W Materials Science & Engineering A, 2025, 943: 148772",
+    "url": "publications.html"
+  },
+  {
+    "id": 48,
+    "category": "论文",
+    "title": "Effect of nano-precipitates and TRIP effect on strain hardening behavior of low-carbon nanostructured steel",
+    "body": "Yang X C, Li C N, Ba L Z, Wang C, Ju Y Z, Wang Y, Di X J* Construction and Building Materials, 2025, 472: 140816",
+    "url": "publications.html"
+  },
+  {
+    "id": 49,
+    "category": "论文",
+    "title": "A direct brazing approach to low-warpage, high-thermal-efficiency Cu/Si3N4/Cu substrates for power electronics",
+    "body": "Ying Wang*, Ziyu Liu, Miaomiao Fang, Ying Han, Shiyu Niu, Zhenwen Yang China Welding, 2025",
+    "url": "publications.html"
+  },
+  {
+    "id": 50,
+    "category": "论文",
+    "title": "Effect of Hydrogenation on the Microstructure and Mechanical Properties of Low-Temperature Diffusion Bonding Joints of Zirconium Alloy",
+    "body": "Zeming Wang, Xu Yang, Ruiping Wang, Zonglin Xiao, Fugong Qi, Shiyu Niu, Zhenwen Yang, Ying Wang* Advanced Engineering Materials, 2025, 28(3)",
+    "url": "publications.html"
+  },
+  {
+    "id": 51,
+    "category": "论文",
+    "title": "Heterogeneous nucleation mechanism of M7C3 carbides in Fe-Cr-C-V-xTi hardfacing alloys",
+    "body": "Taihao Ding, Xinjie Di, Ying Wang, Fengqin Ji, Defa Xin, Longjiang Gao, Chengning Li Materials Science and Engineering: A, 2025, 949: 149337",
+    "url": "publications.html"
+  },
+  {
+    "id": 52,
+    "category": "论文",
+    "title": "Study on the Microstructure and Properties of Additive Manufacturing Al-Mg-Sc Alloy with CMT-PADV plus Arc Weaving Process",
+    "body": "Hongfei Xu, Lijun Yang, Yiming Huang, Ying Wang Journal of Materials Engineering and Performance, 2025, 30(2): 1448-1459",
+    "url": "publications.html"
+  },
+  {
+    "id": 53,
+    "category": "论文",
+    "title": "Effect of Welding Thermal Cycles on Microstructure Transformation and Hardening Behaviour of HAZ for 1.0GPa-grade Ultra-high Strength Seamless Steel Tube",
+    "body": "Junya Han, Chengning Li, Xiaocong Yang, Yuke Yang, Ying Wang, Yanqing Zhao, Xinjie Di Journal of Materials Engineering and Performance, 2025, 34(22): 26442-26454",
+    "url": "publications.html"
+  },
+  {
+    "id": 54,
+    "category": "论文",
+    "title": "采用AlSiMgCu钎料液相辅助扩散连接6063铝合金接头组织与力学性能分析",
+    "body": "胡若琪, 张俊杰, 王颖, 张冬雪, 木瑞洁, 杨振文* 焊接学报, 2025, 46(6): 11-19",
+    "url": "publications.html"
+  },
+  {
+    "id": 55,
+    "category": "论文",
+    "title": "钎焊温度对SiC陶瓷低温接头组织和性能的影响",
+    "body": "杨振文, 吴钰洁, 雍臻, 王颖* 天津大学学报(自然科学与工程技术版), 2025, 58(5): 510-519",
+    "url": "publications.html"
+  },
+  {
+    "id": 56,
+    "category": "论文",
+    "title": "Ni中间层厚度对Zr-4/Nb/Ni/316SS扩散连接接头微观组织和性能的影响",
+    "body": "李茜茹，张帆，牛士玉，王颖*，杨振文 稀有金属材料与工程, 2025, 54(12): 3105-3112",
+    "url": "publications.html"
+  },
+  {
+    "id": 57,
+    "category": "论文",
+    "title": "ZTA复相陶瓷/GH3536镍基合金钎焊接头组织演变和力学性能",
+    "body": "王颖*，张子毅，牛士玉，杨振文 稀有金属材料与工程, 2025, 54(8): 2008-2016",
+    "url": "publications.html"
+  },
+  {
+    "id": 58,
+    "category": "论文",
+    "title": "Al2O3陶瓷与多体系金属一体化钎焊结构优化与封接可靠性",
+    "body": "杨振文，张冬雪，邵跃，赵军，乔屹，王纪来，王颖 焊接学报, 2025, 46(9): 1-10",
+    "url": "publications.html"
+  },
+  {
+    "id": 59,
+    "category": "论文",
+    "title": "Si3N4/Cu AMB接头组织与性能研究",
+    "body": "方苗苗, 杨振文, 牛士玉, 王颖* 焊接学报, 2025, 46(10): 24-32",
+    "url": "publications.html"
+  },
+  {
+    "id": 60,
+    "category": "论文",
+    "title": "焊接振幅对铜端子-铝线束超声波焊接接头界面组织和性能的影响",
+    "body": "李东隽, 王颖, 雍臻, 杨坦, 杜辉, 杨振文 焊接学报, 2025, 46(9): 37-45",
+    "url": "publications.html"
+  },
+  {
+    "id": 61,
+    "category": "论文",
+    "title": "超声冲击制备梯度纳米结构Zr-4合金低温扩散连接界面组织与力学性能",
+    "body": "杨旭; 杨振文*; 王颖; 李会军; 李永兵 金属学报, 2025, 62(1): 159-172",
+    "url": "publications.html"
+  },
+  {
+    "id": 62,
+    "category": "论文",
+    "title": "热处理对锆合金扩散焊接头第二相及性能的影响",
+    "body": "王泽明, 陈晨, 王瑞萍, 肖宗林, 牛士玉, 王颖*, 杨振文 中国有色金属学报, 2025, 35(10): 3418-3429",
+    "url": "publications.html"
+  },
+  {
+    "id": 63,
+    "category": "论文",
+    "title": "In situ nanometer-resolution strain and orientation mapping for gas-solid reactions via precession-assisted four-dimensional scanning transmission electron microscopy",
+    "body": "Y Sun, Ying Han*, D Zhou, AS Galanis, A Gomez-Perez, K Wang Nano Today, 2025",
+    "url": "publications.html"
+  },
+  {
+    "id": 64,
+    "category": "论文",
+    "title": "Strain Engineering of Twisted Bilayer Graphene: The Rise of Strain-Twistronics",
+    "body": "Y Hou, J Zhou, M Xue, M Yu, Ying Han, Z Zhang, Y Lu Small, 2025",
+    "url": "publications.html"
+  },
+  {
+    "id": 65,
+    "category": "论文",
+    "title": "Electric field-confined synthesis of single atomic TiOxCy electrocatalytic membranes",
+    "body": "Y Gao, S Liang, C Jiang, M Gu, Q Zhang, A Abdelhafiz, Z Zhang, Ying Han Science Advances, 2025",
+    "url": "publications.html"
+  },
+  {
+    "id": 66,
+    "category": "论文",
+    "title": "High-performance p-type field-effect transistors using substitutional doping and thickness control of two-dimensional materials",
+    "body": "M Das, D Sen, NU Sakib, H Ravichandran, Y Sun, Z Zhang, S Ghosh, Ying Han Nature Electronics, 2025",
+    "url": "publications.html"
+  },
+  {
+    "id": 67,
+    "category": "论文",
+    "title": "Joint microstructure and performance of brazing Si3N4-MoSi2 composites to Nb with AgCuTi and AgCuTi+MoSi2p active fillers",
+    "body": "Fang Miaomiao, Wang Ying*, Shan Wenyu, Yang Zhenwen Advanced Engineering Materials, 2024, 26(21): 2400893",
+    "url": "publications.html"
+  },
+  {
+    "id": 68,
+    "category": "论文",
+    "title": "Microstructure and mechanical properties of Al2O3 ceramic and copper joints brazed with AgCuInTi brazing alloy",
+    "body": "Botao Li, Ben Liu, Yong Wang, Ruoqi Hu, Ying Wang*, Zhenwen Yang International Journal of Applied Ceramic Technology, 2024, 21(6): 4228-4240",
+    "url": "publications.html"
+  },
+  {
+    "id": 69,
+    "category": "论文",
+    "title": "Enhanced properties in Si3N4/Cu AMB joints through regulating interfacial reaction modes induced by Mo-particle additives",
+    "body": "Zhenwen Yang, Miaomiao Fang, Zhen Yong, Qi Wen, Shiyu Niu, Ying Wang* Ceramics International, 2024, 50(21): 43969-43978",
+    "url": "publications.html"
+  },
+  {
+    "id": 70,
+    "category": "论文",
+    "title": "Formation mechanisms and mechanical properties in aluminum cables and copper terminals ultrasonic welded joint",
+    "body": "Ying Wang, Dongjun Li, Zhen Yong, Xu Yang, Shiyu Niu, Hui Du, Zhenwen Yang* Materials Today Communications, 2024, 39: 106029",
+    "url": "publications.html"
+  },
+  {
+    "id": 71,
+    "category": "论文",
+    "title": "Tailoring the microstructure and mechanical properties of wire arc additively manufactured Ti6Al4V alloy by in-situ microalloying with modified nanocarbon",
+    "body": "Z.W. Yang, C.L. Shi, X.Z. Yao, H.J. Li, Z.Q. Ma, Y. Wang* Materials Characterization, 2024, 218: 114510",
+    "url": "publications.html"
+  },
+  {
+    "id": 72,
+    "category": "论文",
+    "title": "Microstructural evolution and mechanical properties of Zr-4 alloy joints diffusion bonded with Nb interlayer",
+    "body": "Xu Yang, Chengxiang Guo, RuiPing Wang, Lei Xu, Ying Wang, HuiJun Li, ZhenWen Yang* Materials Characterization, 2024, 208: 113596",
+    "url": "publications.html"
+  },
+  {
+    "id": 73,
+    "category": "论文",
+    "title": "Varying interfacial reaction patterns in (VNbTaMoW)C ceramic joints brazed with Ti-Zr-Ni-Cu filler alloy",
+    "body": "Shiyu Niu, Zhenwen Yang, Ruijie Mu, Kongbo Sun, Ying Wang* Journal of the European Ceramic Society, 2024, 44: 5541-5554",
+    "url": "publications.html"
+  },
+  {
+    "id": 74,
+    "category": "论文",
+    "title": "Enhanced interfacial structure of (HfZrTiTaNb)C high-entropy ceramic joint brazed using FeCoCrNiTi0.2 alloy filler",
+    "body": "Ruijie Mu, Ying Wang, Shiyu Niu, Kongbo Sun, Zhenwen Yang* Journal of Materials Processing Technology, 2024, 324: 118253",
+    "url": "publications.html"
+  },
+  {
+    "id": 75,
+    "category": "论文",
+    "title": "Design of a double-layer composite ceramic and its brazing with niobium",
+    "body": "Xiaoyu Zheng, Ying Wang*, Zhenwen Yang. Ceramics International, 2024, 50(3): 5250-5260",
+    "url": "publications.html"
+  },
+  {
+    "id": 76,
+    "category": "论文",
+    "title": "Different interfacial reaction modes between ZrO2 and active metals: Insights from interfacial reaction experiments and molecular dynamic simulation",
+    "body": "Qi F. G.*, Yang Z. W., Wang Y., Ding H. M., Liu Q. Ceramics International, 2024, 50(9): 14326-14339",
+    "url": "publications.html"
+  },
+  {
+    "id": 77,
+    "category": "论文",
+    "title": "Recent progress on additive manufacturing of steel-based functionally graded materials",
+    "body": "Ju Y Z, Li C N, Yang X C, Ba L Z, Wang Y, Di X J* Materials Today Communications, 2024, 40: 109953",
+    "url": "publications.html"
+  },
+  {
+    "id": 78,
+    "category": "论文",
+    "title": "高熵碳化物陶瓷及其钎焊接头的组织和力学性能",
+    "body": "王颖，木瑞洁，牛士玉，孙孔波，杨振文* 机械工程学报, 2024, 60(22): 76-85",
+    "url": "publications.html"
+  },
+  {
+    "id": 79,
+    "category": "论文",
+    "title": "热输入对脉冲TIG电弧增材制造Ti6Al4V钛合金微观组织与力学性能的影响",
+    "body": "高震，王颖，杨蔚然，杨振文*，李会军 中国有色金属学报, 2024, 34(10): 3366-3381",
+    "url": "publications.html"
+  },
+  {
+    "id": 80,
+    "category": "论文",
+    "title": "采用Nb中间层扩散连接Zr-4合金接头界面组织与性能",
+    "body": "王瑞萍，肖宗林，杨旭，王泽明，王颖*，杨振文 焊接学报, 2024, 45(8): 33-40",
+    "url": "publications.html"
+  },
+  {
+    "id": 81,
+    "category": "论文",
+    "title": "微量TiC粉末合金化改善电弧增材制造Ti-6Al-4V合金的组织性能",
+    "body": "姚兴中，李会军，杨振文，王颖* 焊接学报, 2024, 45(6): 12-19",
+    "url": "publications.html"
+  },
+  {
+    "id": 82,
+    "category": "论文",
+    "title": "基于三探针检测的TC4钛合金激光深熔焊等离子体动态行为研究",
+    "body": "张涵博, 杨立军, 田付云, 黄一鸣*, 王颖 焊接学报, 2024, 45(11): 101-109",
+    "url": "publications.html"
+  },
+  {
+    "id": 83,
+    "category": "论文",
+    "title": "原位合金化调控电弧增材制造钛合金组织与性能研究进展",
+    "body": "张萌, 王颖, 马宗青, 杨振文* 特种铸造及有色合金, 2024, 44(11): 1478-1488",
+    "url": "publications.html"
+  },
+  {
+    "id": 84,
+    "category": "论文",
+    "title": "Integrated rocksalt-polyanion cathodes with excess lithium and stabilized cycling",
+    "body": "Y Huang, Y Dong, Y Yang, T Liu, M Yoon, S Li, B Wang, EY Zheng, Ying Han Nature Energy, 2024",
+    "url": "publications.html"
+  },
+  {
+    "id": 85,
+    "category": "论文",
+    "title": "Grain rotation mechanisms in nanocrystalline materials: Multiscale observations in Pt thin films",
+    "body": "Y Tian, X Gong, M Xu, C Qiu, Ying Han, Y Bi, LV Estrada, E Boltynjuk Science, 2024",
+    "url": "publications.html"
+  },
+  {
+    "id": 86,
+    "category": "论文",
+    "title": "Grain boundaries are Brownian ratchets",
+    "body": "C Qiu, M Punke, Y Tian, Ying Han, S Wang, Y Su, M Salvalaglio, X Pan Science, 2024",
+    "url": "publications.html"
+  },
+  {
+    "id": 87,
+    "category": "论文",
+    "title": "Ubiquitous short-range order in multi-principal element alloys",
+    "body": "Ying Han*, H Chen, Y Sun, J Liu, S Wei, B Xie, Z Zhang, Y Zhu, M Li, J Yang Nature Communications, 2024",
+    "url": "publications.html"
+  },
+  {
+    "id": 88,
+    "category": "论文",
+    "title": "In-situ 4D-STEM Study of Chemo-Mechanical Interactions during Metal Oxidation",
+    "body": "Y Sun, Ying Han*, D Zhou, HP Garza, AG Perez, T Galanis, S Nicolopoulos Microscopy and Microanalysis, 2024",
+    "url": "publications.html"
+  },
+  {
+    "id": 89,
+    "category": "论文",
+    "title": "Direct measurement of tensile mechanical properties of few-layer hexagonal boron nitride (h-BN)",
+    "body": "J Zhou, M Zhu, Ying Han, X Zhou, S Wang, J Chen, H Wu, Y Hou, Y Lu Journal of Applied Physics, 2024",
+    "url": "publications.html"
+  },
+  {
+    "id": 90,
+    "category": "论文",
+    "title": "Direct extraction of lithium from ores by electrochemical leaching",
+    "body": "H Zhang, Ying Han, J Lai, J Wolf, Z Lei, Y Yang, F Shi Nature Communications, 2024",
+    "url": "publications.html"
+  },
+  {
+    "id": 91,
+    "category": "论文",
+    "title": "Effect of growth temperature on the microstructure and properties of epitaxial MoS2 monolayers grown by metalorganic chemical vapor deposition",
+    "body": "C Chen, N Trainor, S Kumari, H Myja, T Kammell, Z Zhang, Y Zhang, Ying Han Journal of Vacuum Science & Technology A, 2024",
+    "url": "publications.html"
+  },
+  {
+    "id": 92,
+    "category": "论文",
+    "title": "Three-dimensional integration of two-dimensional field-effect transistors",
+    "body": "D Jayachandran, R Pendurthi, MUK Sadaf, NU Sakib, A Pannone, Ying Han Nature, 2024",
+    "url": "publications.html"
+  },
+  {
+    "id": 93,
+    "category": "论文",
+    "title": "Interfacial microstructure and mechanical properties of joints between ZrO2 ceramic and 316 stainless steel brazed using Ag-Cu-In-Ti filler",
+    "body": "Miaomiao Fang, Ben Liu, Yong Wang, Zhenwen Yang，Ying Wang* Vacuum, 2023, 218: 112668",
+    "url": "publications.html"
+  },
+  {
+    "id": 94,
+    "category": "论文",
+    "title": "Wetting of FeCoCrNiTi0.2 high entropy alloy on the (HfZrTiTaNb)C high entropy ceramic",
+    "body": "Ruijie Mu, Ying Wang, Shiyu Niu, Kongbo Sun, Zhenwen Yang* Journal of the European Ceramic Society, 2023, 43(16): 7263-7272",
+    "url": "publications.html"
+  },
+  {
+    "id": 95,
+    "category": "论文",
+    "title": "Facile preparation of multiscale high-entropy carbide particles utilizing pulse discharge: Phase and microstructure evolution",
+    "body": "Shiyu Niu, Kongbo Sun, Ruijie Mu, Ying Wang, Zhenwen Yang* Advanced Engineering Materials, 2023, 25: 2300236",
+    "url": "publications.html"
+  },
+  {
+    "id": 96,
+    "category": "论文",
+    "title": "Investigating the influence of Al contents on microstructure and mechanical properties of Ni3Al superalloy Afabricated by twin wire-based direct arc energy deposition",
+    "body": "Meng Zhang, Zhenwen Yang, Zongqing Ma, Zhijiang Wang, Ying Wang* Advanced Engineering Materials, 2023, 25(23): 2301274",
+    "url": "publications.html"
+  },
+  {
+    "id": 97,
+    "category": "论文",
+    "title": "Investigation of vacuum active brazing of (HfZrTiTaNb)C high-entropy carbide ceramic to Nb with TiZrCuNi filler alloy",
+    "body": "Kongbo Sun, Zhenwen Yang, Ruijie Mu, Shiyu Niu, Ying Wang* Vacuum, 2023, 215: 112362",
+    "url": "publications.html"
+  },
+  {
+    "id": 98,
+    "category": "论文",
+    "title": "Microstructure evolution and mechanical properties of the TiB2-TiC-SiC composite ceramic and Nb brazed joint",
+    "body": "Y. Wang, X.Y. Zheng, Y.R. Wei, Z.W. Yang Journal of Manufacturing Processes, 2023(92): 179-188",
+    "url": "publications.html"
+  },
+  {
+    "id": 99,
+    "category": "论文",
+    "title": "Microstructure and Mechanical Properties of Zr-4 Alloy and 316 Stainless Steel Diffusion Bonding Joint Using Nb/Ni Composite Interlayer",
+    "body": "Zhenwen Yang, Fan Zhang, Xu Yang, Ying Wang*, Dongpo Wang Advanced Engineering Materials, 2023: 2300279",
+    "url": "publications.html"
+  },
+  {
+    "id": 100,
+    "category": "论文",
+    "title": "Interfacial structure and mechanical properties of ZrO2 ceramic and GH4169 alloy joint brazed with Ag-TiH2 composite filler",
+    "body": "Ying Wang, Yaru Wei, Xiaoyu Zheng, Zhenwen Yang* Materials Characterization, 2023(197): 112696",
+    "url": "publications.html"
+  },
+  {
+    "id": 101,
+    "category": "论文",
+    "title": "Microstructural evolution and high-temperature oxidation resistance of YSZ/Crofer 22H brazed joints using Ag-based filler for solid-oxide fuel cell applications",
+    "body": "Z.W. Yang, Z. Xiong, J.L., Wang, Y., Wang, D.P. Wang Materials Characterization, 2023(200): 112888",
+    "url": "publications.html"
+  },
+  {
+    "id": 102,
+    "category": "论文",
+    "title": "Strengthening the functionally graded material of stainless steel 308L and Inconel 625 by local Nb alloying",
+    "body": "Li T X, Wang Z J*, Yang Z W, Wang Y Materials Letters, 2023, 331: 133499",
+    "url": "publications.html"
+  },
+  {
+    "id": 103,
+    "category": "论文",
+    "title": "Effect of Different Wire Feeding Strategies on the Preparation of Functionally Graded Materials by Dual-Wire Arc Additive Manufacturing",
+    "body": "Li T X, Wang Z J*, Yang Z W, Wang Y, Hu S S Metallurgical and Materials Transactions B, 2023, 54: 43-49",
+    "url": "publications.html"
+  },
+  {
+    "id": 104,
+    "category": "论文",
+    "title": "Active brazing of (HfTaZrNbTi)C high-entropy carbide ceramic and Nb with Ti–Ni composite interlayer: Novel findings on the reaction layer",
+    "body": "K.B. Sun, Z.W. Yang*, R.J. Mu, S.Y. Niu, Y. Wang Materials Characterization, 2023(203): 113103",
+    "url": "publications.html"
+  },
+  {
+    "id": 105,
+    "category": "论文",
+    "title": "基于位错模型的增材制造构件疲劳裂纹萌生行为",
+    "body": "赵洋洋, 林可欣, 王颖*, 龚宝明 焊接学报, 2023, 44(7): 1-8",
+    "url": "publications.html"
+  },
+  {
+    "id": 106,
+    "category": "论文",
+    "title": "316L不锈钢扩散焊接头组织性能分析",
+    "body": "胡若琪, 纪康康, 王颖, 王东坡, 杨振文* 焊接学报, 2023, 44(5): 1-6",
+    "url": "publications.html"
+  },
+  {
+    "id": 107,
+    "category": "论文",
+    "title": "SLM成形17-4PH不锈钢微观组织与动态断裂性能",
+    "body": "陈彦兴, 刘秀国, 赵洋洋, 龚宝明*, 王颖, 利成宁 焊接学报, 2023, 44(2): 1-9",
+    "url": "publications.html"
+  },
+  {
+    "id": 108,
+    "category": "论文",
+    "title": "TC11钛合金扩散连接接头组织及力学性能研究",
+    "body": "高云鹏, 王颖, 王东坡, 杨振文* 稀有金属材料与工程, 2023, 52(2): 770-776",
+    "url": "publications.html"
+  },
+  {
+    "id": 109,
+    "category": "论文",
+    "title": "热等静压处理对选区激光熔化GH3536微观结构及拉伸性能的影响",
+    "body": "林可欣, 刘秀国, 龚宝明*, 王颖 中国激光, 2023, 50(4): 402005",
+    "url": "publications.html"
+  },
+  {
+    "id": 110,
+    "category": "论文",
+    "title": "In Situ TEM Characterization and Modulation for Phase Engineering of Nanomaterials",
+    "body": "Ying Han*, L Wang, K Cao, J Zhou, Y Zhu, Y Hou, Y Lu Chemical Reviews, 2023",
+    "url": "publications.html"
+  },
+  {
+    "id": 111,
+    "category": "论文",
+    "title": "Toward high-performance p-type two-dimensional field effect transistors: contact engineering, scaling, and doping",
+    "body": "A Oberoi, Ying Han, SP Stepanoff, A Pannone, Y Sun ACS Nano, 2023",
+    "url": "publications.html"
+  },
+  {
+    "id": 112,
+    "category": "论文",
+    "title": "Electrical Discharge Induced Bulk-to-Nanoparticle Transformation: Nano High-Entropy Carbide as Catalysts for Hydrogen Evolution Reaction",
+    "body": "Shiyu Niu, Zhenwen Yang, * Fugong Qi, Ying Han, Zizheng Shi, Qiwen Qiu, Xiaopeng Han*, Ying Wang, Xiwen Du Advanced Functional Materials, 2022(32): 2203787",
+    "url": "publications.html"
+  },
+  {
+    "id": 113,
+    "category": "论文",
+    "title": "Blackening mechanism and mechanical properties variation of zirconia ceramic induced by active metal brazing",
+    "body": "Fugong Qi, Na Wang, Zhenwen Yang*, Ying Wang, Huijun Li Advanced Engineering Materials, 2022: 2200105",
+    "url": "publications.html"
+  },
+  {
+    "id": 114,
+    "category": "论文",
+    "title": "Defective TiO2 with increased photocatalytic activity synthesized by the TiO2/Ti interfacial reaction method",
+    "body": "Fugong Qi, Zhenwen Yang*, Qiwen Qiu, Ying Wang, Huijun Li Surfaces and Interfaces, 2022(30): 101828",
+    "url": "publications.html"
+  },
+  {
+    "id": 115,
+    "category": "论文",
+    "title": "Microstructure and mechanical properties of twin wire and arc additive manufactured Ni3Al-based alloy",
+    "body": "Meng Zhang, Ying Wang, Zhenwen Yang*, Zongqing Ma, Zhijiang Wang, Dongpo Wang Journal of Materials Processing Technology, 2022(303): 117529",
+    "url": "publications.html"
+  },
+  {
+    "id": 116,
+    "category": "论文",
+    "title": "Non-uniform high-temperature oxidation behavior of twin wire and arc additive manufactured Ni3Al-based alloy",
+    "body": "Meng Zhang, Ying Wang, Zongqing Ma, Zhijiang Wang, Zhenwen Yang* Journal of Manufacturing Processes, 2022(84): 522-530",
+    "url": "publications.html"
+  },
+  {
+    "id": 117,
+    "category": "论文",
+    "title": "Hot cracking during the fabrication of Inconel 625/stainless steel 308 L functionally graded material by dual-wire arc additive manufacturing",
+    "body": "Li T X, Wang Z J*, Hu S S, Yang Z W, Wang Y Journal of Manufacturing Processes, 2022, 82: 461-473",
+    "url": "publications.html"
+  },
+  {
+    "id": 118,
+    "category": "论文",
+    "title": "High-temperature stability of microstructure and mechanical properties of eutectic-reinforced high-entropy ceramic joint",
+    "body": "Kongbo Sun, Zhenwen Yang*, Ruijie Mu, Shiyu Niu, Ying Wang, Dongpo Wang Journal of the European Ceramic Society, 2022(42): 4436-4445",
+    "url": "publications.html"
+  },
+  {
+    "id": 119,
+    "category": "论文",
+    "title": "Microstructure and mechanical properties of the C/C composite and Nb joints brazed with an active Ag-based filler metal",
+    "body": "Zheng K, Yang  Z W, Wang Y*, Wang D P Ceramics International, 2022, 48(7): 9612-9630",
+    "url": "publications.html"
+  },
+  {
+    "id": 120,
+    "category": "论文",
+    "title": "Fabrication and characterization of stainless steel 308 L/Inconel 625 functionally graded material with continuous change in composition by dual-wire arc additive manufacturing",
+    "body": "Li T X, Wang Z J*, Yang Z W, Shu X X, Xu J, Wang Y, Hu S S Journal of Alloys and Compounds, 2022, 915: 165398",
+    "url": "publications.html"
+  },
+  {
+    "id": 121,
+    "category": "论文",
+    "title": "Wetting and interfacial reaction of liquid CuAg-Ti alloy on SiO2-BN ceramic",
+    "body": "Niu S Y, Yang Z W*, Wang Y, Wang D P Applied Surface Science, 2022, 576: 151878",
+    "url": "publications.html"
+  },
+  {
+    "id": 122,
+    "category": "论文",
+    "title": "Joining of titanium diboride-based ultra high-temperature ceramics to refractory metal tantalum using diffusion bonding technology",
+    "body": "Cai X Q, Wang D P, Qi F G, Wang Y*, Qiu Q W, Yang Z W Journal of the European Ceramic Society, 2022, 42(2): 344-353",
+    "url": "publications.html"
+  },
+  {
+    "id": 123,
+    "category": "论文",
+    "title": "Enhancing the Tensile Properties of Inconel 625/TC4 Functionally Graded Materials Prepared by Dual-Wire Arc Additive Manufacturing via Compositional Gradient",
+    "body": "Yangyang Zhao, Baoming Gong, Ying Wang*, Yunlong Gu , 2022, 858: 144133",
+    "url": "publications.html"
+  },
+  {
+    "id": 124,
+    "category": "论文",
+    "title": "TiZrNiCu钎焊Si3N4-MoSi2复合陶瓷与Nb接头组织与力学性能",
+    "body": "单文禹, 王颖, 杨振文*, 王东坡 稀有金属材料与工程, 2022, 51(3): 927-933",
+    "url": "publications.html"
+  },
+  {
+    "id": 125,
+    "category": "论文",
+    "title": "TiB2-TiC-SiC复合陶瓷接触反应钎焊接头界面组织及力学性能",
+    "body": "蔡小强, 王东坡, 王颖, 杨振文* 航空学报, 2022, 43(2): 625006",
+    "url": "publications.html"
+  },
+  {
+    "id": 126,
+    "category": "论文",
+    "title": "Al2O3陶瓷与GH3536真空钎焊接头界面组织与力学性能",
+    "body": "杨斯媛, 王颖*, 王纪来, 杨振文, 王东坡 航空学报, 2022, 43(4): 525806",
+    "url": "publications.html"
+  },
+  {
+    "id": 127,
+    "category": "论文",
+    "title": "Experimentally measuring weak fracture toughness anisotropy in graphene",
+    "body": "S Feng, K Cao, Y Gao, Ying Han, Z Liu, Y Lu, Z Xu Communications Materials, 2022",
+    "url": "publications.html"
+  },
+  {
+    "id": 128,
+    "category": "论文",
+    "title": "Deep elastic strain engineering of 2D materials and their twisted bilayers",
+    "body": "Ying Han*, L Gao, J Zhou, Y Hou, Y Jia, K Cao, K Duan, Y Lu ACS Applied Materials & Interfaces, 2022",
+    "url": "publications.html"
+  },
+  {
+    "id": 129,
+    "category": "论文",
+    "title": "An effective approach for bonding of TZM and Nb-Zr system: Microstructure evolution, mechanical properties, and bonding mechanism",
+    "body": "Z.W. Yang; J.M. Lin; J.F. Zhang; Q.W. Qiu*; Y. Wang*; DP Wang; J. Song Journal of Materials Science & Technology, 2021, 84(0): 16-26",
+    "url": "publications.html"
+  },
+  {
+    "id": 130,
+    "category": "论文",
+    "title": "Interfacial characterization and mechanical properties of reactive air brazed ZrO2 ceramic joints with Ag-CuO-Al2TiO5 composite filler metal",
+    "body": "Z.M. Wang; J.H. Yang; F.G. Qi; A.L. Hou; Z.W. Yang*; Y. Wang; D.P. Wang Ceramics International, 2021, 47(20): 29128-29138",
+    "url": "publications.html"
+  },
+  {
+    "id": 131,
+    "category": "论文",
+    "title": "Balance of strength and plasticity of additive manufactured Ti-6Al-4V alloy by forming TiB whiskers with cyclic gradient distribution",
+    "body": "Yang Z W*; Fu L Q;  Wang S L; Zhang M; Wang Y*; Ma Z Q; Wang D P Additive manufacturing, 2021, 39(0): 101883",
+    "url": "publications.html"
+  },
+  {
+    "id": 132,
+    "category": "论文",
+    "title": "Joining TiB2–TiC–SiC composite to Ta with a Ti/Ni/Ti interlayer: Interfacial microstructure and mechanical properties",
+    "body": "Xiaoqiang Cai; Dongpo Wang; Ying Wang*; Zhenwen Yang Journal of Manufacturing Processes, 2021, 64(0): 1349-1358",
+    "url": "publications.html"
+  },
+  {
+    "id": 133,
+    "category": "论文",
+    "title": "Densification and joining of a (HfTaZrNbTi)C high-entropy ceramic by hot pressing",
+    "body": "Sun KB; Yang ZW*; Mu RJ; Niu SY ; Wang Y ; Wang DP Journal of the European Ceramic Society, 2021, 41(6): 3196-3206",
+    "url": "publications.html"
+  },
+  {
+    "id": 134,
+    "category": "论文",
+    "title": "Wetting and interfacial reaction of liquid CuAg-Ti alloy on SiO2-BN ceramic",
+    "body": "Shiyu Niu, Zhenwen Yang*, Ying Wang, Dongpo Wang Applied Surface Science, 2021(576): 151878",
+    "url": "publications.html"
+  },
+  {
+    "id": 135,
+    "category": "论文",
+    "title": "Diffusion bonding of (Hf0.2Zr0.2Ti0.2Ta0.2Nb0.2)C high-entropy ceramic with metallic Ni foil",
+    "body": "R.J. Mu, Z.W. Yang*, S.Y. Niu, K.B. Sun, Y. Wang, D.P. Wang Journal of the European Ceramic Society, 2021(41): 7478-7487",
+    "url": "publications.html"
+  },
+  {
+    "id": 136,
+    "category": "论文",
+    "title": "Oxidation difference of microstructural bands in additive manufactured titanium alloy",
+    "body": "L.Q. Fu, Z.W. Yang*, Y. Wang, Z.Q. Ma, Z.J. Wang, D.P. Wang Materials Research Letters, 2021, 10(1): 45090",
+    "url": "publications.html"
+  },
+  {
+    "id": 137,
+    "category": "论文",
+    "title": "Microstructural stability and mechanical properties of Al2O3/Kovar 4J34 joint vacuum brazed using Ag-5Cu-1Al-1.25Ti (wt%) filler metal",
+    "body": "J.L. Wang, Z.W. Yang*, Y. Wang, D.P. Wang, H.J. Li Journal of Manufacturing Processes, 2021(72): 553–564",
+    "url": "publications.html"
+  },
+  {
+    "id": 138,
+    "category": "论文",
+    "title": "Defects in black zirconia responsible for solar energy harvesting",
+    "body": "Fugong Qi, Zhenwen Yang*, Ying Wang, Qiwen Qiu, Huijun Li Journal of Materials Chemistry C, 2021(9): 16732-16740",
+    "url": "publications.html"
+  },
+  {
+    "id": 139,
+    "category": "论文",
+    "title": "Microstructure and Mechanical Properties of Vacuum Diffusion Bonded Zr-4 Alloy Joint",
+    "body": "Wang Z M, Yang X, Wang J, Xiao Z L, Qi F G, Sun K B, Wang Y, Yang Z W Crystals, 2021, 11(11): 1437",
+    "url": "publications.html"
+  },
+  {
+    "id": 140,
+    "category": "论文",
+    "title": "Interfacial microstructure and mechanical properties of Ti3SiC2 ceramic and TC11 alloy joint diffusion bonded with a Cu interlayer",
+    "body": "Niu S Y, Wu X F, Yang Z W*, Wang Y, Wang D P Ceramics International, 2021, 47(1): 130-137",
+    "url": "publications.html"
+  },
+  {
+    "id": 141,
+    "category": "论文",
+    "title": "Engineering Dual Active Sites at the Interface between Nanoporous Pt and Nanosized CeO2 to Enhance Photo-Thermocatalytic CO Oxidation",
+    "body": "Fugong Qi, Jinfeng Zhang, Lizhu Song, Shiyu Niu, Zhenwen Yang*, Ying Wang, Qiwen Qiu Advanced Materials Interfaces, 2021, 8(14): 2100581",
+    "url": "publications.html"
+  },
+  {
+    "id": 142,
+    "category": "论文",
+    "title": "空气反应钎焊ZrO2与GH3536接头组织与力学性能",
+    "body": "杨钧皓，杨振文*，王颖，宋奎晶，王东坡 稀有金属材料与工程, 2021, 50(12): 4450-4456",
+    "url": "publications.html"
+  },
+  {
+    "id": 143,
+    "category": "论文",
+    "title": "Nb合金化对电弧增材制造NiTi基形状记忆合金的影响",
+    "body": "许博, 王颖*, 张萌, 杨振文, 王东坡 焊接学报, 2021, 42(8): 1-7",
+    "url": "publications.html"
+  },
+  {
+    "id": 144,
+    "category": "论文",
+    "title": "TiB2-TiC-SiC复合陶瓷接触反应钎焊接头界面组织及力学性能",
+    "body": "蔡小强, 王东坡, 王颖, 杨振文* 航空学报, 2021, 43(2): 625006",
+    "url": "publications.html"
+  },
+  {
+    "id": 145,
+    "category": "论文",
+    "title": "Al2O3陶瓷与GH3536真空钎焊接头界面组织与力学性能",
+    "body": "杨斯媛, 王颖*, 王纪来, 杨振文, 王东坡 航空学报, 2021, 43(4): 525806",
+    "url": "publications.html"
+  },
+  {
+    "id": 146,
+    "category": "论文",
+    "title": "新工科背景下焊接学科的《材料测试分析方法》课程改革与实践——以天津大学材料成型及控制工程专业为例",
+    "body": "杨振文*, 韩雅静, 王颖, 杨立军, 王东坡 天津大学学报(社会科学版), 2021, 23(5): 385-389",
+    "url": "publications.html"
+  },
+  {
+    "id": 147,
+    "category": "论文",
+    "title": "Multifunctional macroassembled graphene nanofilms with high crystallinity",
+    "body": "L Peng, Ying Han, M Wang, X Cao, J Gao Advanced Materials, 2021",
+    "url": "publications.html"
+  },
+  {
+    "id": 148,
+    "category": "论文",
+    "title": "Magnetically induced micropillar arrays for an ultrasensitive flexible sensor with a wireless recharging system",
+    "body": "L Gao, Ying Han, JU Surjadi, K Cao, W Zhou Science China Materials, 2021",
+    "url": "publications.html"
+  },
+  {
+    "id": 149,
+    "category": "论文",
+    "title": "Experimental nanomechanics of 2D materials for strain engineering",
+    "body": "Ying Han*, J Zhou, H Wang, L Gao, S Feng, K Cao, Z Xu, Y Lu Applied Nanoscience, 2021",
+    "url": "publications.html"
+  },
+  {
+    "id": 150,
+    "category": "论文",
+    "title": "Diffusion bonding of Ni3Al-based alloy using a Ni interlayer",
+    "body": "Z.W. Yang; J. Lian; J. Wang; X.Q. Cai; Y. Wang*; D.P. Wang; Z.M. Wang; Y.C. Liu Journal of Alloys and Compounds, 2020, 819(153324): 1-11",
+    "url": "publications.html"
+  },
+  {
+    "id": 151,
+    "category": "论文",
+    "title": "Phase transition, microstructural evolution and mechanical properties of Ti–6Al–4V and Ti–6.5Al–3.5Mo–1.5Zr–0.3Si joints brazed with Ti–Zr–Ni–Cu filler metal",
+    "body": "Z.W. Yang*; Y.H. Chen; S.Y. Niu; Y. Wang; Y.J. Han;· X.Q. Cai;  D.P. Wang Archives of Civil and Mechanical Engineering, 2020, 20(3): 88",
+    "url": "publications.html"
+  },
+  {
+    "id": 152,
+    "category": "论文",
+    "title": "Fabrication of multi-element alloys by twin wire arc additive manufacturing combined with in-situ alloying",
+    "body": "Z.W. Yang* ; Q. Liu; Y. Wang; Z.Q. Ma; Y.C. Liu Materials Research Letters, 2020, 8(12): 477-482",
+    "url": "publications.html"
+  },
+  {
+    "id": 153,
+    "category": "论文",
+    "title": "Interfacial microstructure evolution and mechanical properties of Ni3Al-based alloy TLP joints with BNi-2 interlayer",
+    "body": "Z.W. Yang *; K.B. Sun ; J. Lian ; X.Q. Cai ; Y. Wang ; D.P. Wang ; Y.C. Liu Intermetallics, 2020, 125(106885): 1-10",
+    "url": "publications.html"
+  },
+  {
+    "id": 154,
+    "category": "论文",
+    "title": "Microstructural evolution and mechanical properties of FeNi42 alloy and SiC ceramic joint vacuum brazed with Ag-based filler metals",
+    "body": "Z.T. Hao; D.P. Wang; Z.W. Yang*; Y. Wang Ceramics International, 2020, 46(8): 12795-12805",
+    "url": "publications.html"
+  },
+  {
+    "id": 155,
+    "category": "论文",
+    "title": "Microstructure and mechanical properties of contact-reactive brazed TZM/Nb-Zr joints with Ni interlayer",
+    "body": "Yang Z W; Sun K B; Lin J M ; Wang Y*; Wang D P Journal of Manufacturing Processes, 2020, 57(0): 817-827",
+    "url": "publications.html"
+  },
+  {
+    "id": 156,
+    "category": "论文",
+    "title": "Microstructure and mechanical properties of 17-4 PH stainless steel and Al2O3 ceramic joints brazed with graphene reinforced Ag-Cu-Ti brazing alloy",
+    "body": "Yang Z W*; Yang J H; Han Y J*; Y. Wang; D P Vacuum, 2020, 181(0): 109604",
+    "url": "publications.html"
+  },
+  {
+    "id": 157,
+    "category": "论文",
+    "title": "Improving the Bonding Strength of Nb–C/C Composite Brazed Structures by Preoxidation",
+    "body": "S.Y. Niu; Z.W. Yang *; C.L. Wang; Y. Han; Y. Wang*; D.P. Wang Advanced Engineering Materials, 2020, 22(7): 2000065",
+    "url": "publications.html"
+  },
+  {
+    "id": 158,
+    "category": "论文",
+    "title": "Interfacial Reaction-Induced Defect Engineering: Enhanced Visible and Near-Infrared Absorption of Wide Band Gap Metal Oxides with Abundant Oxygen Vacancies",
+    "body": "Fugong Qi; Zhenwen Yang;* Jinfeng Zhang; Ying Wang; Qiwen Qiu; Huijun Li ACS Applied Materials & Interfaces, 2020, 12(49): 55417-55425",
+    "url": "publications.html"
+  },
+  {
+    "id": 159,
+    "category": "论文",
+    "title": "C/C composite surface modified by electrophoretic depositing SiC nanowires and its brazing to Nb",
+    "body": "C.K. Jin; Y. Wang; Z.W. Yang*; D.P. Wang Ceramics International, 2020, 46(1): 204-211",
+    "url": "publications.html"
+  },
+  {
+    "id": 160,
+    "category": "论文",
+    "title": "原位合金化双丝电弧增材制造γ TiAl组织性能研究",
+    "body": "刘齐, 张萌, 付乐琪, 杨振文*, 王颖, 王东坡 稀有金属材料与工程, 2020, 49(11): 3919-3924",
+    "url": "publications.html"
+  },
+  {
+    "id": 161,
+    "category": "论文",
+    "title": "Large elastic deformation and defect tolerance of hexagonal boron nitride monolayers",
+    "body": "Ying Han*, S Feng, K Cao, Y Wang, L Gao, Z Xu, Y Lu Cell Reports Physical Science, 2020",
+    "url": "publications.html"
+  },
+  {
+    "id": 162,
+    "category": "论文",
+    "title": "In situ mechanical characterization of silver nanowire/graphene hybrids films for flexible electronics",
+    "body": "K Cao, H Yang, L Gao, Ying Han, J Feng International Journal of Smart and Nano Materials, 2020",
+    "url": "publications.html"
+  },
+  {
+    "id": 163,
+    "category": "论文",
+    "title": "High-efficiency cellular reprogramming by nanoscale puncturing",
+    "body": "Y Wang, Z Wang, K Xie, X Zhao, X Jiang, B Chen, Ying Han, Y Lu, L Huang Nano Letters, 2020",
+    "url": "publications.html"
+  },
+  {
+    "id": 164,
+    "category": "论文",
+    "title": "Thermal effect and Rayleigh instability of ultrathin 4H hexagonal gold nanoribbons",
+    "body": "P Li, Ying Han, X Zhou, Z Fan, S Xu, K Cao Matter, 2020",
+    "url": "publications.html"
+  },
+  {
+    "id": 165,
+    "category": "论文",
+    "title": "Elastic straining of free-standing monolayer graphene",
+    "body": "K Cao, S Feng, Ying Han, L Gao, T Hue Ly, Z Xu, Y Lu Nature Communications, 2020",
+    "url": "publications.html"
+  },
+  {
+    "id": 166,
+    "category": "论文",
+    "title": "Microstructure and mechanical properties of Ti2AlNb alloy and C/C composite joints brazed with Ag-Cu-Zn and Ag-Cu-Zn/Cu/Ag-Cu-Ti filler metals",
+    "body": "Zhitao Hao; Dongpo Wang; Zhenwen Yang *; Ying Wang Archives of Civil and Mechanical Engineering, 2019, 19(4): 1083-1094",
+    "url": "publications.html"
+  },
+  {
+    "id": 167,
+    "category": "论文",
+    "title": "Microstructure and mechanical properties of Ni3Al-based alloy joint transient liquid phase bonded using Ni/Ti interlayer",
+    "body": "Z.W. Yang; J. Lian; X.Q. Cai; Y. Wang*; D.P. Wang; Y.C. Liu Intermetallics, 2019, 109(0): 179-188",
+    "url": "publications.html"
+  },
+  {
+    "id": 168,
+    "category": "论文",
+    "title": "Design of reinforced interfacial structure in brazed joints of C/C composites and Nb by pre-oxidation surface treatment combined with in situ growth of CNTs",
+    "body": "Z.W. Yang*; C.L. Wang; Y. Han; Y.T. Zhao; Y. Wang*; D.P. Wang Carbon, 2019, 143(0): 494-506",
+    "url": "publications.html"
+  },
+  {
+    "id": 169,
+    "category": "论文",
+    "title": "Effect of ultrasonic impact treatment on the microstructure and mechanical properties of diffusion-bonded TC11 alloy joints",
+    "body": "Z. W. Yang; Q. Liu; J. H. Wang; Z. Q. Ma; Y. Wang*; D. P. Wang Archives of Civil and Mechanical Engineering, 2019, 19(4): 1431-1441",
+    "url": "publications.html"
+  },
+  {
+    "id": 170,
+    "category": "论文",
+    "title": "Relief of residual stress in Al2O3/Nb joints brazed with Ag-Cu-Ti/Cu/Ag-Cu-Ti composite interlayer",
+    "body": "Y.T. Zhao; Y. Wang; Z.W. Yang*; D.P. Wang Archives of Civil and Mechanical Engineering, 2019, 19(1): 1-10",
+    "url": "publications.html"
+  },
+  {
+    "id": 171,
+    "category": "论文",
+    "title": "Interfacial microstructure and mechanical properties of TC4/Ti3SiC2 contact-reactive brazed joints using a Cu interlayer",
+    "body": "Y. Wang; Y. H. Xia; Z.W. Yang*;  D. P. Wang Ceramics International, 2019, 44(18): 22154-22164",
+    "url": "publications.html"
+  },
+  {
+    "id": 172,
+    "category": "论文",
+    "title": "Microstructure and mechanical properties of Ti3SiC2/Ti3SiC2 diffusion bonded joints using Ti foil as an interlayer",
+    "body": "Y. Wang; X.F. Wu; Z.W. Yang*; Y.H. Xia; D.P. Wang Ceramics International, 2019, 45(16): 20900-20909",
+    "url": "publications.html"
+  },
+  {
+    "id": 173,
+    "category": "论文",
+    "title": "Effects of Cu interlayers on the microstructure and mechanical properties of Al2O3/AgCuTi/Kovar brazed joints",
+    "body": "Y. Wang; C.K. Jin; Z.W. Yang*; D.P. Wang International Journal of Applied Ceramic Technology, 2019, 16(3): 896-906",
+    "url": "publications.html"
+  },
+  {
+    "id": 174,
+    "category": "论文",
+    "title": "Microstructure and Mechanical Properties of Titanium–Zirconium–Molybdenum and Ti2AlNb Joint Diffusion Bonded with and without a Ni Interlayer",
+    "body": "J. B. Niu; Y. Wang; Z.W. Yang*; D.P. Wang Advanced Engineering Materials, 2019, 21(11): 1900713",
+    "url": "publications.html"
+  },
+  {
+    "id": 175,
+    "category": "论文",
+    "title": "Ti3SiC2陶瓷与TC4合金钎焊接头微观组织及性能",
+    "body": "王颖, 夏永红, 杨振文, 王东坡 稀有金属材料与工程, 2019, 48(9): 3041-3047",
+    "url": "publications.html"
+  },
+  {
+    "id": 176,
+    "category": "论文",
+    "title": "薄板对接超声疲劳试样设计方法及其误差分析",
+    "body": "王颖, 王东坡, 丁吉坤, 邓彩艳*, 吴良晨 焊接学报, 2019, 40(1): 71-74",
+    "url": "publications.html"
+  },
+  {
+    "id": 177,
+    "category": "论文",
+    "title": "The combined effects of grain and sample sizes on the mechanical properties and fracture modes of gold microwires",
+    "body": "HK Yang, K Cao, Ying Han, M Wen, JM Guo, ZL Tan, J Lu, Y Lu Journal of Materials Science & Technology, 2019",
+    "url": "publications.html"
+  },
+  {
+    "id": 178,
+    "category": "论文",
+    "title": "Nanomechanics of low-dimensional materials for functional applications",
+    "body": "S Fan, X Feng, Ying Han, Z Fan, Y Lu Nanoscale Horizons, 2019",
+    "url": "publications.html"
+  },
+  {
+    "id": 179,
+    "category": "论文",
+    "title": "Contact-reactive brazing of Ti3SiC2 ceramic to TC4 alloy using a Ni interlayer: Interfacial microstructure and joining properties",
+    "body": "Y.H. Xia; Y. Wang; Z.W. Yang*; D.P. Wang Ceramics International, 2018, 44(10): 11869-11877",
+    "url": "publications.html"
+  },
+  {
+    "id": 180,
+    "category": "论文",
+    "title": "Interfacial microstructure and mechanical properties of TC4/Ti3SiC2 contact-reactive brazed joints using a Cu interlayer",
+    "body": "Y. Wang; Y. H. Xia; Z.W. Yang*;  D. P. Wang Ceramics International, 2018, 44(18): 22154-2264",
+    "url": "publications.html"
+  },
+  {
+    "id": 181,
+    "category": "论文",
+    "title": "Microstructure, residual stress and mechanical properties of Al2O3/Nb joints vacuum-brazed with two Ag-based active fillers",
+    "body": "Y. Wang; Y.T. Zhao; Z.W. Yang*; D.P. Wang Vacuum, 2018, 158(0): 14-23",
+    "url": "publications.html"
+  },
+  {
+    "id": 182,
+    "category": "论文",
+    "title": "Diffusion bonding of Ti2AlNb alloy using pure Ti foil as an interlayer",
+    "body": "Y. Wang; X.Q. Cai ; Z.W. Yang*; D.P. Wang; X.G. Liu; Y.C. Liu Journal of Alloys and Compounds, 2018, 756(0): 163-174",
+    "url": "publications.html"
+  },
+  {
+    "id": 183,
+    "category": "论文",
+    "title": "Vacuum brazing of Ti2AlNb and TC4 alloys using Ti-Zr-Cu-Ni and Ti-Zr-Cu-Ni plus Mo filler metals: Microstructural evolution and mechanical properties",
+    "body": "Y. Wang; M. Jiao; Z.W. Yang*; D.P. Wang; Y.C. Liu Archives of Civil and Mechanical Engineering, 2018, 18(2): 546-556",
+    "url": "publications.html"
+  },
+  {
+    "id": 184,
+    "category": "论文",
+    "title": "An investigation on diffusion bonding of TZM alloy and Nb-Zr alloy using Ni foil as an interlayer",
+    "body": "J.M. Lin; Z.W. Yang*; H.H. Wei; Y. Wang; Z.Q. Ma; D.P. Wang Journal of Alloys and Compounds, 2018, 743(0): 780-788",
+    "url": "publications.html"
+  },
+  {
+    "id": 185,
+    "category": "论文",
+    "title": "The influence of post-production heat treatment on the multi-directional properties of nickel-aluminum bronze alloy fabricated using wire-arc additive manufacturing process",
+    "body": "Shen C, Pan Z X*, Ding D H, Yuan L, Nie N, Wang Y, Luo D Z, Cuiuri D, Van Duin S, Li H J Additive Manufacturing, 2018, 23: 411-421",
+    "url": "publications.html"
+  },
+  {
+    "id": 186,
+    "category": "论文",
+    "title": "Ti2AlNb合金瞬时液相扩散连接接头界面组织及性能分析",
+    "body": "蔡小强, 王颖, 杨振文*, 王东坡 焊接学报, 2018, 39(2): 24-28",
+    "url": "publications.html"
+  },
+  {
+    "id": 187,
+    "category": "论文",
+    "title": "TiNiB复合钎料钎焊Ti2AlNb基合金接头微观组织及性能",
+    "body": "焦曼, 王颖, 杨振文*, 王东坡 稀有金属材料与工程, 2018, 47(1): 389-395",
+    "url": "publications.html"
+  },
+  {
+    "id": 188,
+    "category": "论文",
+    "title": "Graphene-bridged multifunctional flexible fiber supercapacitor with high energy density",
+    "body": "L Gao, J Song, JU Surjadi, K Cao, Ying Han, D Sun, X Tao, Y Lu ACS Applied Materials & Interfaces, 2018",
+    "url": "publications.html"
+  },
+  {
+    "id": 189,
+    "category": "论文",
+    "title": "Size-dependent fracture behavior of silver nanowires",
+    "body": "K Cao, Ying Han, H Zhang, L Gao, H Yang, J Chen, Y Li, Y Lu Nanotechnology, 2018",
+    "url": "publications.html"
+  },
+  {
+    "id": 190,
+    "category": "论文",
+    "title": "Mechanically Assisted Self-Healing of Ultrathin Gold Nanowires",
+    "body": "B Wang, Ying Han, S Xu, L Qiu, F Ding, J Lou, Y Lu Small, 2018",
+    "url": "publications.html"
+  },
+  {
+    "id": 191,
+    "category": "论文",
+    "title": "Mechanically stable ternary heterogeneous electrodes for energy storage and conversion",
+    "body": "L Gao, H Zhang, JU Surjadi, P Li, Ying Han, D Sun, Y Lu Nanoscale, 2018",
+    "url": "publications.html"
+  },
+  {
+    "id": 192,
+    "category": "论文",
+    "title": "Characterization of microstructure and mechanical properties of Al2O3/TiAl joints vacuum-brazed with Ag-Cu-Ti plus W composite filler",
+    "body": "Z.W.Yang; J.M. Lin; Y. Wang*; D.P. Wang Vacuum, 2017, 143(0): 294-302",
+    "url": "publications.html"
+  },
+  {
+    "id": 193,
+    "category": "论文",
+    "title": "Active metal brazing of SiO2-BN ceramic and Ti plate with Ag-Cu-Ti plus BN composite filler",
+    "body": "Z.W.Yang*; C.L. Wang; Y. Wang; L.X. Zhang; D.P. Wang; J.C. Feng Journal of Materials Science & Technology, 2017, 33(11): 1392-1401",
+    "url": "publications.html"
+  },
+  {
+    "id": 194,
+    "category": "论文",
+    "title": "Effects of Nb content in Ti-Ni-Nb brazing alloys on the microstructure and mechanical properties of Ti-22Al-25Nb alloy brazed joints",
+    "body": "Y. Wang; X.Q. Cai; Z.W.Yang*; D.P. Wang;  X.G. Liu; Y.C. Liu Journal of Materials Science & Technology, 2017, 33(7): 682-689",
+    "url": "publications.html"
+  },
+  {
+    "id": 195,
+    "category": "论文",
+    "title": "Zirconia ceramic and Nb joints brazed with Mo-particle-reinforced Ag-Cu-Ti composite fillers: Interfacial microstructure and formation mechanism",
+    "body": "N. Wang; D.P. Wang; Z.W. Yang*; Y. Wang; X.G. Liu Ceramics International, 2017, 43(13): 9636-9643",
+    "url": "publications.html"
+  },
+  {
+    "id": 196,
+    "category": "论文",
+    "title": "Microstructure and mechanical properties of Al2O3/TiAl joints brazed with B powders reinforced Ag-Cu-Ti based composite fillers",
+    "body": "G.B. Niu; D.P.Wang; Z.W.Yang*; Y.Wang Ceramics International, 2017, 43(1): 439-450",
+    "url": "publications.html"
+  },
+  {
+    "id": 197,
+    "category": "论文",
+    "title": "Al2O3陶瓷与TiAl合金真空钎焊接头界面组织及性能",
+    "body": "牛国宾, 王东坡, 杨振文*, 王颖 稀有金属材料与工程, 2017, 46(11): 3282-3287",
+    "url": "publications.html"
+  },
+  {
+    "id": 198,
+    "category": "论文",
+    "title": "Microstructure and mechanical properties of SiO2-BN ceramic and Invar alloy joints brazed with Ag-Cu-Ti + TiH2+ BN composite filler",
+    "body": "Y. Wang; Z.W. Yang*; L.X. Zhang ; D.P. Wang; J.C. Feng Journal of Materiomics, 2016, 2(1): 66-74",
+    "url": "publications.html"
+  },
+  {
+    "id": 199,
+    "category": "论文",
+    "title": "Microstructure evolution and mechanical properties of Ti-22Al-25Nb alloy joints brazed with Ti-Ni-Nb alloy",
+    "body": "Y. Wang; X.Q. Cai; Z.W. Yang*; Q.W. Qiu; D.P. Wang; Y.C. Liu Materials Chemistry and Physics, 2016, 182(0): 488-497",
+    "url": "publications.html"
+  },
+  {
+    "id": 200,
+    "category": "论文",
+    "title": "Microstructure Evolution and Mechanical Properties of Ti-43Al-9V-0.3Y Alloy Joints Brazed With Ti-Zr-Ni-Cu plus Mo Composite Filler",
+    "body": "Y. Wang; Q.W. Qiu;  Z.W. Yang*; D.P. Wang Advanced Engineering Materials, 2016, 18(6): 944-952",
+    "url": "publications.html"
+  },
+  {
+    "id": 201,
+    "category": "论文",
+    "title": "Transient liquid phase (TLP) bonding of Ti2AlNb alloy using Ti-Ni interlayer Microstructure characterization and mechanical properties",
+    "body": "X.Q. Cai; Y. Wang; Z.W. Yang*; D.P. Wang; Y.C. Liu Journal of Alloys and Compounds, 2016, 679(0): 9-17",
+    "url": "publications.html"
+  },
+  {
+    "id": 202,
+    "category": "论文",
+    "title": "Microstructure and mechanical properties of Al2O3 ceramic and Ti6Al4V alloy joint brazed with inactive Ag-Cu and Ag-Cu plus B",
+    "body": "Q.W. Qiu; Y. Wang; Z.W. Yang*; D.P. Wang Journal of the European Ceramic Society, 2016, 36(8): 2067-2074",
+    "url": "publications.html"
+  },
+  {
+    "id": 203,
+    "category": "论文",
+    "title": "Microstructure and mechanical properties of TiAl alloy joints vacuum brazed with Ti-Zr-Ni-Cu brazing powder without and with Mo additive",
+    "body": "Q.W. Qiu; Y. Wang; Z.W. Yang*; D.P. Wang Materials & Design, 2016, 90(0): 650-659",
+    "url": "publications.html"
+  },
+  {
+    "id": 204,
+    "category": "论文",
+    "title": "Interfacial microstructure and mechanical properties of zirconia ceramic and niobium joints vacuum brazed with two Ag-based active filler metals",
+    "body": "N. Wang; D.P.Wang; Z.W.Yang*; Y.Wang Ceramics International, 2016, 42(11): 12815-12824",
+    "url": "publications.html"
+  },
+  {
+    "id": 205,
+    "category": "论文",
+    "title": "Microstructure and mechanical properties of Al2O3 ceramic and TiAl alloy joints brazed with Ag-Cu-Ti filler metal",
+    "body": "G.B. Niu; D.P.Wang; Z.W.Yang*; Y.Wang Ceramics International, 2016, 42(6): 6924-6934",
+    "url": "publications.html"
+  },
+  {
+    "id": 206,
+    "category": "论文",
+    "title": "Simulation of Dynamic Behavior and Prediction of Optimal Welding Current for Short-Circuiting Transfer Mode in GMAW",
+    "body": "Wang Y, Wang L J, Lv X Q Journal of Maunfacturing Science and Engineering, 2016, 138(6): 61011",
+    "url": "publications.html"
+  },
+  {
+    "id": 207,
+    "category": "论文",
+    "title": "Development of ZrF4-containing CsF-AlF3 flux for brazing 5052 aluminium alloy with Zn-Al filler metal",
+    "body": "Xiao B, Wang D P, Cheng F J*, Wang Y Materials & Design, 2016, 90: 610-617",
+    "url": "publications.html"
+  },
+  {
+    "id": 208,
+    "category": "论文",
+    "title": "Correction of buckling distortion by ultrasonic shot peening treatment for 5A06 aluminum alloy welded structure",
+    "body": "He Y. Z., Wang D. P., Wang Y.*, Zhang H. Transactions of Nonferrous Metals Society of China, 2016, 26(6): 1531-1537",
+    "url": "publications.html"
+  },
+  {
+    "id": 209,
+    "category": "论文",
+    "title": "基于Neuber公式的焊接制造对运载火箭储箱承载力的影响",
+    "body": "林一桐, 王东坡, 王颖 焊接学报, 2016, 37(1): 51-54",
+    "url": "publications.html"
+  },
+  {
+    "id": 210,
+    "category": "论文",
+    "title": "Low-temperature diffusion brazing of actively metallized Al2O3 ceramic tube and 5A05 aluminum alloy",
+    "body": "Y. Wang; Z.W. Yang*; L.X. Zhang; D.P.Wang; J.C. Feng Materials & Design, 2015, 86(0): 328-337",
+    "url": "publications.html"
+  },
+  {
+    "id": 211,
+    "category": "论文",
+    "title": "Oxide film on 5052 aluminium alloy: Its structure and removal mechanism by activated CsF-AlF3 flux in brazing",
+    "body": "Xiao B, Wang D P, Cheng F J*, Wang Y Applied Surface Science, 2015, 337: 208-215",
+    "url": "publications.html"
+  },
+  {
+    "id": 212,
+    "category": "论文",
+    "title": "Creep Behaviors of Sn0.7Cu0.1Co0.05Ni/Cu Soldering Joints",
+    "body": "Cheng F J, Ma Z L*, Wang Y, Zou Q B IEEE Transactions on Components, Packaging and Manufacturing Technology, 2015, 4(12): 2058-2065",
+    "url": "publications.html"
+  },
+  {
+    "id": 213,
+    "category": "论文",
+    "title": "Structure and composition of oxide film on 5083 alloy at brazing temperature",
+    "body": "F.J. Cheng; J.F. Yao; Z.W. Yang*; Y. Wang; B. Xiao Materials Science and Technology, 2015, 31(11): 1282-1287",
+    "url": "publications.html"
+  },
+  {
+    "id": 214,
+    "category": "论文",
+    "title": "2219铝合金VPTIG焊接头的低温断裂韧性",
+    "body": "林一桐, 王东坡, 王颖 天津大学学报(自然科学与工程技术版), 2015, 48(5): 468-472",
+    "url": "publications.html"
+  },
+  {
+    "id": 215,
+    "category": "论文",
+    "title": "Invar合金与Si3N4陶瓷钎焊接头界面组织和性能研究",
+    "body": "王颖, 杨振文*, 张丽霞, 冯吉才 稀有金属材料与工程, 2015, 44(2): 339-343",
+    "url": "publications.html"
+  },
+  {
+    "id": 216,
+    "category": "论文",
+    "title": "扩散连接技术在核聚变反应堆包层模块制造中的应用",
+    "body": "刘晨曦, 刘永长*, 周晓胜, 马宗青, 王颖 精密成形工程, 2015, 7(1): 2025/1/8",
+    "url": "publications.html"
+  },
+  {
+    "id": 217,
+    "category": "论文",
+    "title": "Effect of post weld heat treatment on the microstructure and corrosion behavior of AA2219 aluminum alloy joints welded by variable polarity tungsten inert gas welding",
+    "body": "Z.Y. Zhu; C.Y. Deng; Y. Wang; Z.W. Yang*; J.K. Ding; D.P. Wang Materials & Design, 2014, 65(0): 1075-1082",
+    "url": "publications.html"
+  },
+  {
+    "id": 218,
+    "category": "论文",
+    "title": "Effect of post weld heat treatment on properties of variable polarity TIG welded AA2219 aluminium alloy joints",
+    "body": "Ding J. K., Wang D. P., Wang Y.*, Du H. Transactions of Nonferrous Metals Society of China, 2014, 24(5): 1307-1316",
+    "url": "publications.html"
+  },
+  {
+    "id": 219,
+    "category": "论文",
+    "title": "Surface alloying method of ultrasonic shot peening on iron surface",
+    "body": "Zhang T, Wang D P, Wang Y*, Deng C Y, Gong B M Applied Surface Science, 2013, 265: 671-676",
+    "url": "publications.html"
+  },
+  {
+    "id": 220,
+    "category": "论文",
+    "title": "EH36钢焊接接头在超长寿命区间的疲劳性能",
+    "body": "王颖, 宋宗贤, 王东坡, 邓彩艳*, 赵小辉 天津大学学报(自然科学与工程技术版), 2013, 46(5): 453-457",
+    "url": "publications.html"
+  },
+  {
+    "id": 221,
+    "category": "论文",
+    "title": "超声表面滚压加工40Cr表层的纳米力学性能",
+    "body": "刘宇, 王立君, 王东坡, 王颖* 天津大学学报, 2012, 45(7): 656-661",
+    "url": "publications.html"
+  },
+  {
+    "id": 222,
+    "category": "论文",
+    "title": "焊缝CTOD试验中的Pop-in效应及产生原因",
+    "body": "吴世品, 王东坡, 邓彩艳, 王颖* 焊接学报, 2012, 33(4): 105-108",
+    "url": "publications.html"
+  },
+  {
+    "id": 223,
+    "category": "论文",
+    "title": "火焰喷熔涂层与焊接接头性能研究",
+    "body": "赵小辉, 王东坡, 邓彩艳, 王颖*, 徐艳 天津大学学报, 2012, 45(3): 254-258",
+    "url": "publications.html"
+  },
+  {
+    "id": 224,
+    "category": "论文",
+    "title": "熔化极脉冲焊设备及其在焊管生产中的应用前景",
+    "body": "李桓, 高莹, 凌礼恭, 许贞龙, 王颖 焊管, 2010, 33(2): 40-44",
+    "url": "publications.html"
+  },
+  {
+    "id": 225,
+    "category": "论文",
+    "title": "Al2O3陶瓷与5A05铝合金的间接钎焊工艺",
+    "body": "徐富家, 张丽霞*, 冯吉才, 王颖, 王克强 中国有色金属学报, 2010, 20(3): 463-468",
+    "url": "publications.html"
+  },
+  {
+    "id": 226,
+    "category": "论文",
+    "title": "TLP bonding of alumina ceramic and 5A05 aluminum alloyusing Ag-Cu-Ti interlayer",
+    "body": "Wang Y., Cao J., Feng J. C.*, Zhang L. X., Xu F. J. China Welding, 2009, 18(4): 39-42",
+    "url": "publications.html"
+  },
+  {
+    "id": 227,
+    "category": "论文",
+    "title": "氧化铝陶瓷与金属活性钎焊研究进展",
+    "body": "王颖, 曹健, 张丽霞*, 冯吉才 焊接, 2009, 2: 56-60",
+    "url": "publications.html"
+  },
+  {
+    "id": 228,
+    "category": "论文",
+    "title": "Microstructure of alumina ceramic/Ag–Cu–Ti brazing alloy/Kovar alloy joint",
+    "body": "Wang Y., Feng J. C., Zhang L. X., He P., Zhang J. H. Materials Science and Technology, 2007, 23(3): 320-323",
+    "url": "publications.html"
+  },
+  {
+    "id": 229,
+    "category": "论文",
+    "title": "接头形式对陶瓷/金属连接残余应力的影响",
+    "body": "王颖, 何鹏, 冯吉才, 张丽霞, 顾小龙, 王大勇 焊接学报, 2007, 28(4): 13-16",
+    "url": "publications.html"
+  },
+  {
+    "id": 230,
+    "category": "论文",
+    "title": "Al2O3陶瓷/AgCuTi/可伐合金钎焊接头力学性能",
+    "body": "顾小龙, 王大勇, 王颖, 张丽霞, 冯吉才* 材料科学与工艺, 2007, 15(3): 366-369",
     "url": "publications.html"
   }
 ]
