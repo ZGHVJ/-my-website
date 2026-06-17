@@ -159,7 +159,7 @@ html:not(.lang-en) .en-only { display: none !important; }
 .hero .container { max-width: 1240px; }
 .hero-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1.6fr 1fr;
   gap: 44px;
   align-items: stretch;
   position: relative;
@@ -169,8 +169,8 @@ html:not(.lang-en) .en-only { display: none !important; }
 .hero-photo img {
   width: 100%;
   height: 100%;
-  min-height: 520px;
   object-fit: cover;
+  object-position: center;
   border-radius: 6px;
   border: 1px solid rgba(255,255,255,0.18);
   box-shadow: 0 18px 44px rgba(4,15,30,0.45);
